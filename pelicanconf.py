@@ -43,7 +43,6 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-
 THEME = "theme/"
 
 # Custom Variables
@@ -68,17 +67,3 @@ PYGMENTS_RST_OPTIONS = {"linenos": "table"}
 # Default setting for displaying the pages in the menu
 # Pages in the menu can be hidden with the setting "Status: hidden" or "Status: draft" at the begining of the page
 DISPLAY_PAGES_ON_MENU = True
-
-# Blogroll
-LINKS = (
-    ("Pelican", "http://getpelican.com/"),
-    ("Python.org", "http://python.org/"),
-    ("Jinja2", "http://jinja.pocoo.org/"),
-    ("You can modify those links in your config file", "#"),
-)
-
-# Social widget
-SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
-)
