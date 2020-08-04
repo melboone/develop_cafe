@@ -20,7 +20,6 @@ DISPLAY_CATEGORIES_ON_MENU = False
 # Every link needs to the entry added below. Format: Black
 MENUITEMS = [
     # ("Home", "/"),
-<<<<<<< HEAD
     (
         "Archives",
         [
@@ -28,9 +27,6 @@ MENUITEMS = [
             ("7z", "/archives/7z.html"),
             ("yaml", "/archives/yaml.html"),
         ],
-=======
-    ("Archives", [("zip", "/archives/zip.html"),],),
->>>>>>> fixed config
 ]
 
 # Feed generation is usually not desired when developing
