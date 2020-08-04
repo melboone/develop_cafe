@@ -19,7 +19,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 # Due to the static nature of this job, unfortunately this is a manual job
 # Every link needs to the entry added below. Format: Black
 MENUITEMS = [
-    ("Home", "/"),
+    # ("Home", "/"),
     (
         "Archives",
         [
