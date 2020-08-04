@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}" class="no-js">
+
+<head>
+  {% block head %}
+  <title>{% block title %}{{ title }}{% endblock title %} - {{ SITENAME }}</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="{{SITEURL}}">
+  {# Global stylesheets #}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/typeface-open-sans@0.0.75,npm/@creativebulma/bulma-divider@1/dist/bulma-divider.min.css,npm/@creativebulma/bulma-badge@1/dist/bulma-badge.min.css,npm/@creativebulma/bulma-tooltip@1/dist/bulma-tooltip.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}">
+  {# Icons #}
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}//images/favicon-16x16.png">
+  <link rel="shortcut icon" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/favicon.ico" type="image/x-icon" />
+  <link rel="manifest" href="{{ THEME_STATIC_DIR }}/images/site.webmanifest">
+
+  {% if FEED_ALL_ATOM %}
+  <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+  {% endif %}
+  {% if FEED_ALL_RSS %}
+  <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
+  {% endif %}
+  {% if FEED_ATOM %}
+  <link href="{{ FEED_DOMAIN }}/{%if FEED_ATOM_URL %}{{ FEED_ATOM_URL }}{% else %}{{ FEED_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+  {% endif %}
+  {% if FEED_RSS %}
+  <link href="{{ FEED_DOMAIN }}/{% if FEED_RSS_URL %}{{ FEED_RSS_URL }}{% else %}{{ FEED_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+  {% endif %}
+  {% if CATEGORY_FEED_ATOM and category %}
+  <link href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_ATOM_URL %}{{ CATEGORY_FEED_ATOM_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_ATOM.format(slug=category.slug) }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categories Atom Feed" />
+  {% endif %}
+  {% if CATEGORY_FEED_RSS and category %}
+  <link href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_RSS_URL %}{{ CATEGORY_FEED_RSS_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_RSS.format(slug=category.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categories RSS Feed" />
+  {% endif %}
+  {% if TAG_FEED_ATOM and tag %}
+  <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_ATOM_URL %}{{ TAG_FEED_ATOM_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_ATOM.format(slug=tag.slug) }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
+  {% endif %}
+  {% if TAG_FEED_RSS and tag %}
+  <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
+  {% endif %}
+  {% endblock head %}
+</head>
+
+<body>
+  {# Burger menu for mobile #}
+  <div class="mobile-burger burger is-hidden-desktop" data-target="#doc-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  {# Sidebar #}
+  <div class="columns is-gapless">
+    <div id="doc-menu" class="column is-2 has-background-grey-lighter menu is-mobile">
+      <div class="has-text-centered">
+        <a href="{{ SITEURL }}">
+          <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/square-1-large.png" alt="Develop Cafe Logo" width="90%">
+        </a>
+      </div>
+      {% include 'menu.html' %}
+    </div>
+    {# Title Section #}
+    <div class=" column">
+      <div class="hero is-light">
+        <div class="hero-body py-5">
+          <div class="container has-text-centered">
+            <h1 class="title is-2 is-spaced has-text-weight-semibold">
+              {% if page %}{{ page.title }}{% elif article %}{{ article.title }}{% endif %}
+            </h1>
+            <h2 class="subtitle is-6 has-text-weight-light">
+              {% if page %}{{ page.subtitle }}{% elif article %}{{ article.subtitle }}{% endif %}
+              <h2>
+          </div>
+        </div>
+      </div>
+      {# Content Section #}
+      <section class="section">
+        <div class="container is-desktop">
+          <a href="#page-title" id="page-title" class="title is-4 has-text-weight-normal is-spaced anchor">
+            <span class="anchor-name">{% if page %}{{ page.title }}{% elif article %}{{ article.title }}{% endif %}</span>
+          </a>
+          <div class="my-5">
+            {% block content %}
+            {% endblock %}
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        {% include 'footer.html' %}
+      </footer>
+    </div>
+  </div>
+  <script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/doc.min.js"></script>
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+</body>
+
+</html>
