@@ -1,24 +1,24 @@
 <ul class="menu-list">
     {% for title,url in MENUITEMS %}
-    {% if url is string %}
-    {% if title != 'Search' %}
-    <li class="menu-item {% if url == link %} is-active {% endif %}">
-        <a href="">{{ title }}</a>
-    </li>
-    {% endif %}
-    {% elif url is iterable %}
-    <li class="menu-item has-dropdown {%- for title,item_url in url -%}{%- if item_url == link -%}{{- ' is-active' -}}{%- endif -%}{%- endfor -%}">
-        <a class="menu-title {% if pg == pages %}is-active{% endif %}">{{- title }}<span class="menu-caret"></span> </a>
-        <ul class="menu-dropdown">
-            {% for title,item_url in url %}
-            <li {% if item_url == link %}class="is-active" {% endif %}>
-                <a class="menu-item {% if item_url == link %}is-active{% endif %}" href="{{ item_url }}">
-                    {{ title }}
-                </a>
+        {% if url is string %}
+            {% if title != 'Search' %}
+            <li class="menu-item {% if url == link %} is-active {% endif %}">
+                <a href="">{{ title }}</a>
             </li>
-            {% endfor %}
-        </ul>
-    </li>
-    {% endif %}
+            {% endif %}
+        {% elif url is iterable %}
+            <li class="menu-item has-dropdown {%- for title,item_url in url -%}{%- if item_url == link -%}{{- ' is-active' -}}{%- endif -%}{%- endfor -%}">
+                <a class="menu-title {% if pg == pages %}is-active{% endif %}">{{- title }}<span class="menu-caret"></span> </a>
+                <ul class="menu-dropdown">
+                    {% for title,item_url in url %}
+                    <li {% if item_url == link %}class="is-active" {% endif %}>
+                        <a class="menu-item {% if item_url == link %}is-active{% endif %}" href="{{ item_url }}">
+                            {{ title }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endif %}
     {% endfor %}
 </ul>

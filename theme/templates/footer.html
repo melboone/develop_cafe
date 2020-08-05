@@ -1,9 +1,9 @@
 <div class="content has-text-centered">
     <p>
         {% if DISPLAY_PAGES_ON_MENU -%}
-        {% for pg in pages %}
-        <a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title }}</a>
-        {% endfor %}
+            {% for pg in pages %}
+                <a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title }}</a> |
+            {% endfor %}
         {% endif %}
     </p>
 </div>
