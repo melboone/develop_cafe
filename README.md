@@ -19,3 +19,17 @@ Clone and run the project on your computer.
     pelican --listen
 
     http://127.0.0.1:8000/
+
+
+              {
+            }_{ __{
+         .-{   }   }-.
+        (   }     {   )
+        |`-.._____..-'|
+        |             ;--.
+        |            (__  \
+        |             |/  /
+        |             /  /    Have a coffee
+        |            (  /
+        \             y'
+         `-.._____..-'
