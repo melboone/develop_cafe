@@ -1,5 +1,7 @@
 # html output files
 output/
+sass/
+*.map
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -133,3 +135,5 @@ dmypy.json
 
 # VS Code
 .vscode/
+/.idea/
+/theme/static/css/main2.css
