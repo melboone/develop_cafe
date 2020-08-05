@@ -42,4 +42,4 @@ For general pages, such as this one or [`About`](/about.html), category is not r
 
 ## Creating a new page
 
-To create a new page, create a `.md` file in the appropriate folder (or new one), add the above elements.
+To create a new page, create a `.md` file in the appropriate folder (or new one), add the above elements. It is a good idea to add the file to the [configuration](https://github.com/melboone/develop_cafe/blob/master/pelicanconf.py) file as well, in the `MENUITEMS`.
