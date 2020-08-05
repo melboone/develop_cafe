@@ -11,17 +11,18 @@ Every page and article on this website uses Markdown format with `.md` extension
 
 ## - Mandatory Elements
 
-This is a website page, not attached necessarely to any other page or subpage. For example, [`About`](/about.html) or this page.
-
 Every page, at a minimum, must have the following:
 
     Title: My super title
     Date: 2010-12-03 10:20
-    Slug: my-super-title
+    Slug: category/my-super-title
 
     Content
 
+As you can see the `Slug:` has a category before the actual slug. This helps better categorizing the URLs and avoid confusion.
+The category is not necessarily for general pages.
 
+For general pages, such as this one or [`About`](/about.html), category is not required.
 
 ## Optional Fields
 
@@ -38,4 +39,3 @@ Every page, at a minimum, must have the following:
 | status:      | Content status: `draft`, `hidden`, or `published`                                                                                    |
 | translation: | Is content is a translation of another (`true` or `false`)                                                                           |
 | lang         | Content language ID (`en`, `fr`, etc.)                                                                                               |
-
