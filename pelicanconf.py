@@ -27,6 +27,7 @@ MENUITEMS = [
             ("7z", "/archives/7z.html"),
             ("yaml", "/archives/yaml.html"),
         ],
+    ),
 ]
 
 # Feed generation is usually not desired when developing
