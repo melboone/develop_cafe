@@ -39,3 +39,7 @@ For general pages, such as this one or [`About`](/about.html), category is not r
 | status:      | Content status: `draft`, `hidden`, or `published`                                                                                    |
 | translation: | Is content is a translation of another (`true` or `false`)                                                                           |
 | lang         | Content language ID (`en`, `fr`, etc.)                                                                                               |
+
+## Creating a new page
+
+To create a new page, create a `.md` file in the appropriate folder (or new one), add the above elements.
