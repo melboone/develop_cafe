@@ -136,4 +136,3 @@ dmypy.json
 # VS Code
 .vscode/
 /.idea/
-/theme/static/css/main2.css
