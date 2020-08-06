@@ -9,7 +9,7 @@ Category: FAQ
 
 Every page and article on this website uses Markdown format with `.md` extension. Markdown basics can be found [here](https://daringfireball.net/projects/markdown/basics).
 
-## - Mandatory Elements
+## Mandatory Elements
 
 Every page, at a minimum, must have the following:
 

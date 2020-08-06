@@ -2,12 +2,13 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-# Default author not set. Each .md article should have an author name and (optional) link.
+# Default author not set.
+# Each .md article should have an author name and (optional) link.
 # Example: Author: <a href="your_link">Author Name</a>
-
 # Should a default author be added, remove the comment below
 # AUTHOR = "Julian"
 
+# Website details
 SITENAME = "Develop Cafe"
 SITEURL = "http://127.0.0.1:8000"
 PATH = "content"
@@ -37,19 +38,18 @@ CATEGORY_FEED_RSS = "feeds/{slug}.rss.xml"
 # Set the Github url
 GITHUB_URL = "https://github.com/melboone"
 
-# Default pagination. Should this be necessary, add a number, example "DEFAULT_PAGINATION = 5"
+# Default pagination. Should this be necessary, add a number,
+# example "DEFAULT_PAGINATION = 5"
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
+# Set the theme folder
 THEME = "theme/"
 
 # Custom Variables
 META_KEYWORDS = ""
-
-# global metadata to all the contents
-DEFAULT_METADATA = {"yeah": "it is"}
 
 # static paths will be copied without parsing their contents
 STATIC_PATHS = [
@@ -65,5 +65,6 @@ EXTRA_PATH_METADATA = {
 PYGMENTS_RST_OPTIONS = {"linenos": "table"}
 
 # Default setting for displaying the pages in the menu
-# Pages in the menu can be hidden with the setting "Status: hidden" or "Status: draft" at the begining of the page
+# Pages in the menu can be hidden with the setting "Status: hidden" or "Status: draft"
+# at the beginning of the page
 DISPLAY_PAGES_ON_MENU = True
