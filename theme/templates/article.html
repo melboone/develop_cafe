@@ -34,8 +34,7 @@
     </div>
 {% endblock article_details %}
 {% block content %}
-    {{ article.summary }}
-    {{ articles.title }}
+    {{ article.content }}
     {# Show Tags #}
     {% if article.tags %}
         <div class="control pt-6">

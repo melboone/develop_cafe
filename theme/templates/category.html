@@ -20,18 +20,23 @@
     </div>
 {% endblock article_details %}
 {% block content %}
-    {% for x in articles %}
-        <a href="/{{ x.url }}">{{ x.title }}</a><br>
-    {% endfor %}
-    {# Show Tags #}
-    {% if category.tags %}
-        <div class="control pt-6">
-            <div class="tags ">
-                <span class="tag is-info">Tags:</span>
-                {% for tag in category.tags %}
-                    <span class="tag is-info is-light"><a href="/{{ tag.url }}">{{ tag }}</a> </span>
-                {% endfor %}
+    <div class="columns is-multiline">
+        {% for x in articles %}
+            <div class="column is-half">
+                <a href="/{{ x.url }}">
+                    <div class="box">
+                        {% if x.icon %}
+                            <div class="is-size-2" style="float:right">
+                                <img src="{{ x.icon }}" title="{{ x.title }}" alt="Icon {{ x.title }}" intrinsicsize="35 x 35" style="" width="35px" height="35px">
+                            </div>
+                        {% endif %}
+                        <div class="title">{{ x.title }}</div>
+                        <div class="level">
+                            <div>{{ x.summary }}</div>
+                        </div>
+                    </div>
+                </a>
             </div>
-        </div>
-    {% endif %}
+        {% endfor %}
+    </div>
 {% endblock content %}
