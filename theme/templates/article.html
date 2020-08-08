@@ -5,14 +5,16 @@
         <div class="control">
             <div class="tags has-addons">
                 {% if article.author %}
-                    <span class="tag is-info is-normal">
+                    <span class="tag is-link is-normal">
                         {% if article.authors|wordcount() == 4 %}
                             Authors:
                         {% else %} Author:
                         {% endif %}
                     </span>
                     {% for author in article.authors %}
-                        <span class="tag is-danger is-light is-normal"> {{ author }} </span>
+                        <span class="tag is-link is-light is-normal">
+                        <a href="/{{ author.url }}">{{ author.name }}</a>
+                        </span>
                     {% endfor %}
                 {% endif %}
             </div>
@@ -32,14 +34,15 @@
     </div>
 {% endblock article_details %}
 {% block content %}
-    {{ article.content }}
+    {{ article.summary }}
+    {{ articles.title }}
     {# Show Tags #}
     {% if article.tags %}
         <div class="control pt-6">
             <div class="tags ">
                 <span class="tag is-info">Tags:</span>
                 {% for tag in article.tags %}
-                    <span class="tag is-info is-light">{{ tag }}</span>
+                    <span class="tag is-info is-light"><a href="/{{ tag.url }}">{{ tag }}</a> </span>
                 {% endfor %}
             </div>
         </div>

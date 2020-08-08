@@ -1,0 +1,11 @@
+{% macro get_article_list(articles, default_category) %}
+    <ul>
+        {% for article in articles %}
+            <li>
+                <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+                &nbsp
+                <span class="post-meta">({{ get_meta_data_html(article, default_category) }})</span>
+            </li>
+        {% endfor %}
+    </ul>
+{% endmacro %}

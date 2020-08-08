@@ -1,4 +1,37 @@
 {% extends 'base.html' %}
 {% block title %}{{ category }}{% endblock title %}
+{% block article_details %}
+    <div class="field is-grouped is-grouped-multiline">
+        <div class="control">
+            <div class="tags has-addons">
+                {% if category.author %}
+                    <span class="tag is-link is-normal">
+                        {% if category.authors|wordcount() == 4 %}
+                            Authors:
+                        {% else %} Author:
+                        {% endif %}
+                    </span>
+                    {% for author in category.authors %}
+                        <span class="tag is-link is-light is-normal"> {{ author }} </span>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock article_details %}
 {% block content %}
+    {% for x in articles %}
+        <a href="/{{ x.url }}">{{ x.title }}</a><br>
+    {% endfor %}
+    {# Show Tags #}
+    {% if category.tags %}
+        <div class="control pt-6">
+            <div class="tags ">
+                <span class="tag is-info">Tags:</span>
+                {% for tag in category.tags %}
+                    <span class="tag is-info is-light"><a href="/{{ tag.url }}">{{ tag }}</a> </span>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
 {% endblock content %}
