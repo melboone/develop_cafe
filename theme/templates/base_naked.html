@@ -18,34 +18,24 @@
     {% block custom_css %}{% endblock custom_css %}
 </head>
 <body>
+{% block body_extra %}{% endblock body_extra %}
 {# Burger menu for mobile #}
 {% include 'component_burger_menu.html' %}
 {# Sidebar #}
 <div class="columns is-gapless">
-    <div id="doc-menu" class="column is-2 menu is-mobile">
+    <div id="doc-menu" class="column is-2 menu is-mobile" style="background-color:transparent !important;">
         {% include 'component_logo.html' %}
         {% include 'component_menu.html' %}
     </div>
-    {# Title Section #}
-    <div class=" column">
-        {# Hero Title Section #}
-        {% include 'component_page_hero.html' %}
-        {# Content Section #}
-        <section class="section">
-            <div class="container is-desktop">
-                <a href="#page-title" id="page-title" class="title is-4 has-text-weight-normal is-spaced anchor">
-                    <span class="anchor-name">{% if page %}{{ page.title }}{% elif article %}{{ article.title }}{% endif %}</span>
-                </a>
-                <div class="my-5">
-                    {% block content %}
-                    {% endblock %}
-                </div>
+    {# Content Section #}
+    <section class="column">
+        <div class="container is-desktop">
+            <div class="my-5">
+                {% block content %}
+                {% endblock %}
             </div>
-        </section>
-        <footer class="footer">
-            {% include 'component_footer.html' %}
-        </footer>
-    </div>
+        </div>
+    </section>
 </div>
 {# Custom Scripts #}
 {% include 'component_custom_scripts.html' %}
