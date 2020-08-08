@@ -43,31 +43,30 @@
 {% block content %}
     <div class="navbar-menu is-hidden-touch">
         <div class="navbar-end">
-            <a class="navbar-item has-text-white" href="/digital-samples/">Digital Sample Files</a>
-            <a class="navbar-item has-text-white" href="#">Images</a>
-            <a class="navbar-item has-text-white" href="#">Resources</a>
+            {% if DISPLAY_PAGES_ON_MENU -%}
+                {% for pg in pages %}
+                    <a href="{{ SITEURL }}/{{ pg.url }}" class="navbar-item has-text-white">{{ pg.title }}</a>
+                {% endfor %}
+            {% endif %}
         </div>
     </div>
-        <div class="front-animated-banner"></div>
-        <div class="container">
-            <div class="columns is-vcentered">
-                <div class="column">
-                    <p class="title is-spaced has-text-white is-2">Have a coffee, develop more</p>
-                    <p class="subtitle has-text-white is-4 is-hidden-touch">
-                        def developer(coffee):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if developer != coffee:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; coffee += 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return code
-                    </p>
-                </div>
-                <div class="column">
-                    <img class="box-shadow" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/cafe_programmer.svg" alt="cafe programming icon" width="550px" style="padding-top: 34px">
-                </div>
+    <div class="front-animated-banner"></div>
+    <div class="container">
+        <div class="columns is-vcentered">
+            <div class="column">
+                <p class="title is-spaced has-text-white is-2">Have a coffee, develop more</p>
+                <p class="subtitle has-text-white is-4 is-hidden-touch">
+                    def developer(coffee):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if developer != coffee:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; coffee += 1<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return code
+                </p>
+            </div>
+            <div class="column">
+                <img class="box-shadow" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/cafe_programmer.svg" alt="cafe programming icon" width="550px">
             </div>
         </div>
+    </div>
     <div class="SnapLinksContainer" style="margin-left: 0; margin-top: 0; display: none;">
         <div class="SL_SelectionRect">
             <div class="SL_SelectionLabel"></div>
         </div>
-        <svg class="SnapLinksHighlighter" xmlns="http://www.w3.org/2000/svg">
-            <rect width="0" height="0"></rect><!-- Used for easily cloning the properly namespaced rect -->
-        </svg>
     </div>
 {% endblock content %}

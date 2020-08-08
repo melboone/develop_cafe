@@ -2,7 +2,7 @@
     <p>
         {% if DISPLAY_PAGES_ON_MENU -%}
             {% for pg in pages %}
-                <a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title }}</a> |
+                <a href="{{ SITEURL }}/{{ pg.url }}" class="has-text-logo-light">{{ pg.title }}</a>
             {% endfor %}
         {% endif %}
     </p>
