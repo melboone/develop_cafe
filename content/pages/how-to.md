@@ -19,26 +19,25 @@ Every page, at a minimum, must have the following:
 
     Content
 
-As you can see the `Slug:` has a category before the actual slug. This helps better categorizing the URLs and avoid confusion.
-The category is not necessarily for general pages.
+As you can see the `Slug:` contains the category before the actual slug. This helps better categorizing the URLs and avoid confusion.
 
-For general pages, such as this one or [`About`](/about.html), category is not required.
+For general pages, such as this one or [`About`](pages/about.html), category is always `pages/`.
 
 ## Optional Fields
 
-| **Property** | **Description**                                                                                                                      |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Author:      | Set the yourself as the author of the page. You can also include a link to your page with a normal link `Author`. Please don't spam. |
-| Authors:     | Multiple authors are supported, example: `Author: Julian Page, Matthew Smith`.                                                       |
-| Modified:    | Date of the last modification of the page.                                                                                           |
-| Summary:     | Short version for index and feeds                                                                                                    |
-| Tags:        | Content tags, separated by commas                                                                                                    |
-| keywords:    | Content keywords, separated by commas (HTML content only)                                                                            |
-| category:    | Content category (one only — not multiple)                                                                                           |
-| template:    | Name of template to use to generate content                                                                                          |
-| status:      | Content status: `draft`, `hidden`, or `published`                                                                                    |
-| translation: | Is content is a translation of another (`true` or `false`)                                                                           |
-| lang         | Content language ID (`en`, `fr`, etc.)                                                                                               |
+| **Property** | **Description**                                                                                                                                                                                                                                                                                                                            |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Author:      | Set the yourself as the author of the page. You can also include a link to your page with a normal link `Author`.<br>Please don't spam.                                                                                                                                                                                                    |
+| <br>Authors: | Multiple authors are supported, example: `Authors: Julian Page, Matthew Smith`.<br>Accepts links for every specific author, example: `Authors: <a href="your_link" rel="noopener noreferrer nofollow">Julian Page</a>, Matthew Smith`.<br>Due to [security](https://www.jitbit.com/alexblog/256-targetblank---the-most-underestimated-vulnerability-ever/) [reasons](https://sites.google.com/site/bughunteruniversity/nonvuln/phishing-with-window-opener) and the high risk of spam, only links with `rel="noopener noreferrer nofollow"` will be accepted. |
+| Modified:    | Date of the last modification of the page.                                                                                                                                                                                                                                                                                                 |
+| Summary:     | Short version for index and feeds                                                                                                                                                                                                                                                                                                          |
+| Tags:        | Content tags, separated by commas                                                                                                                                                                                                                                                                                                          |
+| keywords:    | Content keywords, separated by commas (HTML content only)                                                                                                                                                                                                                                                                                  |
+| category:    | Content category (one only — not multiple)                                                                                                                                                                                                                                                                                                 |
+| template:    | Name of template to use to generate content                                                                                                                                                                                                                                                                                                |
+| status:      | Content status: `draft`, `hidden`, or `published`                                                                                                                                                                                                                                                                                          |
+| translation: | Is content is a translation of another (`true` or `false`)                                                                                                                                                                                                                                                                                 |
+| lang         | Content language ID (`en`, `fr`, etc.)                                                                                                                                                                                                                                                                                                     |
 
 ## Creating a new page
 

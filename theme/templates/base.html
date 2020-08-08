@@ -33,9 +33,10 @@
         {# Content Section #}
         <section class="section">
             <div class="container is-desktop">
-                <a href="#page-title" id="page-title" class="title is-4 has-text-weight-normal is-spaced anchor">
-                    <span class="anchor-name">{% if page %}{{ page.title }}{% elif article %}{{ article.title }}{% endif %}</span>
+                <a href="#page-title" id="page-title" class="title is-4 has-text-weight-normal is-spaced anchor mb-2">
+                    <span>{% if page %}{{ page.title }}{% elif article %}{{ article.title }}{% endif %}</span>
                 </a>
+                {% block article_details %}{% endblock article_details %}
                 <div class="my-5">
                     {% block content %}
                     {% endblock %}
