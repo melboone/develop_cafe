@@ -46,6 +46,7 @@
                             {% elif category %}{{ category|capitalize() }}
                         {% elif tag %}Tag: {{ tag }}
                         {% elif author %}By author: {{ author }}
+                        {% elif period %}{{ period | reverse | join(' ') }} archives
                         {% endif %}
                     </span>
                 </a>
