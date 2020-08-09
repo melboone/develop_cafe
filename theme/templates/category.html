@@ -45,12 +45,18 @@
                             {{ title.title }}
                         </a>
                         {# Check if there is an author. If it is, display it and link it to the author page#}
-                        {% if title.author %}
+                        {% if title.authors or title.author %}
                             <div class="tags has-addons is-normal has-text-weight-normal mt-2">
-                                <span class="tag is-normal is-link">Author:</span>
-                                <span class="tag is-normal is-info is-light">
-                                        <a href="#">{{ title.author }}</a>
+                                <span class="tag is-normal is-link">
+                                    {% if title.authors|wordcount() == 4 %}Authors:
+                                    {% else %} Author:
+                                    {% endif %}
+                                </span>
+                                {% for author in title.authors %}
+                                    <span class="tag is-link is-light is-normal">
+                                        <a href="/{{ author.url }}">{{ author }}</a>
                                     </span>
+                                {% endfor %}
                             </div>
                         {% endif %}
                     </div>
