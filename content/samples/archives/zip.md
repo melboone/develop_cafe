@@ -2,7 +2,8 @@ Title: .zip
 Slug: samples/archives/zip-samples
 Date: 5 August 2020
 Modified: 9 August 2020
-Author: Julian
+Show_modified: No
+Authors: Julian, Mark
 Tags: samples, files, zip
 Summary: ZIP is an archive file format that supports lossless data compression.
 Icon: https://www.svgrepo.com/show/21257/7z.svg
