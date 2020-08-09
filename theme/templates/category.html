@@ -21,18 +21,24 @@
 {% endblock article_details %}
 {% block content %}
     <div class="columns is-multiline">
-        {% for x in articles %}
+        {% for title in articles %}
             <div class="column is-half">
-                <a href="/{{ x.url }}">
+                <a href="/{{ title.url }}">
                     <div class="box">
-                        {% if x.icon %}
+                        {% if title.icon %}
                             <div class="is-size-2" style="float:right">
-                                <img src="{{ x.icon }}" title="{{ x.title }}" alt="Icon {{ x.title }}" intrinsicsize="35 x 35" style="" width="35px" height="35px">
+                                <img src="{{ title.icon }}" title="{{ title.title }}" alt="Icon {{ title.title }}" intrinsicsize="35 x 35" style="" width="35px" height="35px">
                             </div>
                         {% endif %}
-                        <div class="title">{{ x.title }}</div>
+                        <div class="title">{{ title.title }}</div>
+                        <div>{{ title.summary }}</div>
                         <div class="level">
-                            <div>{{ x.summary }}</div>
+                            <div class="control">
+                                <div class="tags has-addons">
+                                    <span class="tag is-normal">Last update:</span>
+                                    <span class="tag is-normal is-info is-light">{{ title.modified|strftime('%d %B %Y') }}</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </a>
