@@ -2,9 +2,9 @@
 {% block title %}{{ category|capitalize() }}{% endblock title %}
 {% block article_details %}
     <div class="field is-grouped is-grouped-multiline">
-        <div class="control">
-            <div class="tags has-addons">
-                {% if article.author %}
+        {% if article.author %}
+            <div class="control">
+                <div class="tags has-addons">
                     <span class="tag is-link is-normal">
                         {% if article.authors|wordcount() == 4 %}
                             Authors:
@@ -16,21 +16,25 @@
                         <a href="/{{ author.url }}">{{ author.name }}</a>
                         </span>
                     {% endfor %}
-                {% endif %}
+                </div>
             </div>
-        </div>
-        <div class="control">
-            <div class="tags has-addons">
-                <span class="tag is-normal">Created:</span>
-                <span class="tag is-normal is-primary is-light">{{ article.date|strftime('%d %B %Y') }}</span>
+        {% endif %}
+        {% if article.show_date == 'Yes'%}
+            <div class="control">
+                <div class="tags has-addons">
+                    <span class="tag is-normal">Created:</span>
+                    <span class="tag is-normal is-primary is-light">{{ article.date|strftime('%d %B %Y') }}</span>
+                </div>
             </div>
-        </div>
-        <div class="control">
-            <div class="tags has-addons">
-                <span class="tag is-normal">Last Modified:</span>
-                <span class="tag is-normal is-info is-light">{{ article.modified|strftime('%d %B %Y') }}</span>
+        {% endif %}
+        {% if article.show_modified == 'Yes' %}
+            <div class="control">
+                <div class="tags has-addons">
+                    <span class="tag is-normal">Updated:</span>
+                    <span class="tag is-normal is-info is-light">{{ article.modified|strftime('%d %B %Y') }}</span>
+                </div>
             </div>
-        </div>
+        {% endif %}
     </div>
 {% endblock article_details %}
 {% block content %}
@@ -46,4 +50,5 @@
             </div>
         </div>
     {% endif %}
+    {{ page_title }}
 {% endblock content %}
