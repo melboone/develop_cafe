@@ -1,5 +1,6 @@
 <div class="content has-text-centered">
     <p>
+        {# Display the list of pages in the footer section, if they are visible #}
         {% if DISPLAY_PAGES_ON_MENU -%}
             {% for pg in pages %}
                 <a href="{{ SITEURL }}/{{ pg.url }}" class="has-text-logo-light">{{ pg.title }}</a>

@@ -28,21 +28,27 @@
     </div>
     {# Title Section #}
     <div class=" column">
-        {# Hero Title Section #}
+        {# Page hero Title #}
         {% include 'component_page_hero.html' %}
-        {# Content Section #}
+
         <section class="section">
             <div class="container is-desktop">
+
+                {# Content Title & anchor #}
                 <a href="#page-title" id="page-title" class="title is-4 has-text-weight-normal is-spaced anchor mb-2">
                     <span>
-                        {% if page %}{{ page.title|capitalize() }}
+                        {% if page %}
+                            {{ page.title|capitalize() }}
                             {% elif article %}{{ article.title|capitalize() }}
-                            {% elif category %}{{ category|capitalize() }} sample files
+                            {% elif category %}{{ category|capitalize() }}
                         {% elif tag %}Tag: {{ tag }}
                         {% elif author %}By author: {{ author }}
                         {% endif %}
                     </span>
                 </a>
+                {# End Content Title #}
+
+                {# Article Title, Author Date and Modified Date #}
                 {% block article_details %}
                 {% endblock article_details %}
 
@@ -52,9 +58,11 @@
                     {% endblock %}
                 </div>
                 {# End page content #}
+
             </div>
         </section>
         <footer class="footer">
+            {# footer links #}
             {% include 'component_footer.html' %}
         </footer>
     </div>

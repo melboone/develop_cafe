@@ -1,8 +1,12 @@
 {% extends 'base.html' %}
 {# title displayed in both the hero section and the head section #}
 {% block title %}{{ category|capitalize() }}{% endblock title %}
+{% block subtitle %}{{ category|capitalize() }}{% endblock subtitle %}
 {% block article_details %}
+    {# Begin article details containing title, author and dates#}
     <div class="field is-grouped is-grouped-multiline">
+
+        {# Begin Authors #}
         {# If there is an author or authors specified in file, display them #}
         {% if article.author %}
             <div class="control">
@@ -21,6 +25,9 @@
                 </div>
             </div>
         {% endif %}
+        {# End Authors #}
+
+        {# Begin Date #}
         {# Don't display the article date is show_date == "No" in file #}
         {% if not article.show_date == 'No' %}
             {# If nothing specified in the file or show_date == "Yes" display below #}
@@ -31,6 +38,9 @@
                 </div>
             </div>
         {% endif %}
+        {# End Date #}
+
+        {# Begin Last Update #}
         {# Don't display the article date is show_modified == "No" in file #}
         {% if not article.show_modified == 'No' %}
             {# If nothing specified in the file or show_modified == "Yes" display below #}
@@ -41,11 +51,15 @@
                 </div>
             </div>
         {% endif %}
+        {# End Last Update #}
+
     </div>
 {% endblock article_details %}
 {% block content %}
-    {# Actual article content   #}
+    {# Actual article content #}
     {{ article.content }}
+
+    {# Begin Tags #}
     {# If Tags are present, display them #}
     {% if article.tags %}
         <div class="control pt-6">
@@ -57,4 +71,6 @@
             </div>
         </div>
     {% endif %}
+    {# End Tags #}
+
 {% endblock content %}

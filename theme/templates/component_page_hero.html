@@ -2,11 +2,14 @@
     <div class="hero-body py-5">
         <div class="container has-text-centered">
             <h1 class="title is-2 is-spaced has-text-weight-semibold">
-                {% if page %}{{ page.title }}{% elif article %}{{ article.title }}{% endif %}
+                {% if page %}
+                    {{ page.title|capitalize() }}
+                    {% elif article %}{{ article.title|capitalize() }}
+                    {% elif category %}{{ category|capitalize() }}
+                    {% elif tag %}Tag: {{ tag }}
+                    {% elif author %}Author: {{ author }}
+                {% endif %}
             </h1>
-            <h2 class="subtitle is-6 has-text-weight-light">
-                {% if page %}{{ page.subtitle }}{% elif article %}{{ article.subtitle }}{% endif %}
-            </h2>
         </div>
     </div>
 </div>
