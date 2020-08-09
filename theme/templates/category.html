@@ -5,14 +5,14 @@
         <div class="control">
             <div class="tags has-addons">
                 {% if category.author %}
-                    <span class="tag is-link is-normal">
+                    <span class="tag is-link">
                         {% if category.authors|wordcount() == 4 %}
                             Authors:
                         {% else %} Author:
                         {% endif %}
                     </span>
                     {% for author in category.authors %}
-                        <span class="tag is-link is-light is-normal"> {{ author }} </span>
+                        <span class="tag is-link is-light"> {{ author }} </span>
                     {% endfor %}
                 {% endif %}
             </div>
@@ -31,7 +31,7 @@
                         {# Check if the link is internal or not and if it is, link it to the internal article #}
                         <a {% if not title.link %}href="/{{ title.url }}"{% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
                             <div class="is-size-2" style="float:right">
-                                <img src="{{ title.icon }}" title="{{ title.title }}" alt="Icon {{ title.title }}" intrinsicsize="45 x 45" style="" width="45px" height="45px">
+                                <img src="{{ title.icon }}" title="{{ title.title }}" alt="Icon {{ title.title }}" width="70">
                             </div>
                         </a>
                     {% endif %}
@@ -46,14 +46,14 @@
                         </a>
                         {# Check if there is an author. If it is, display it and link it to the author page#}
                         {% if title.authors or title.author %}
-                            <div class="tags has-addons is-normal has-text-weight-normal mt-2">
-                                <span class="tag is-normal is-link">
+                            <div class="tags has-addons has-text-weight-normal mt-2">
+                                <span class="tag is-link">
                                     {% if title.authors|wordcount() == 4 %}Authors:
                                     {% else %} Author:
                                     {% endif %}
                                 </span>
                                 {% for author in title.authors %}
-                                    <span class="tag is-link is-light is-normal">
+                                    <span class="tag is-link is-light">
                                         <a href="/{{ author.url }}">{{ author }}</a>
                                     </span>
                                 {% endfor %}
@@ -72,29 +72,53 @@
                     {# End content summary #}
 
                     {# Begin lower part of the box #}
+                    {# Attribution Required? #}
                     <nav class="level is-mobile">
-                        {# Check if there are tags. If so, display them #}
-                        {% if title.tags %}
-                            <div class="level-left">
-                                <div class="tags has-addons">
-                                    <span class="tag is-info is-normal">Tags:</span>
-                                    {% for tag in title.tags %}
-                                        <span class="tag is-normal is-info is-light"><a href="/{{ tag.url }}">{{ tag.name }}</a></span>
-                                    {% endfor %}
+                        {% if title.attribution %}
+                        <div class="level-left">
+                            <div class="tags has-addons">
+                                <span class="tag is-light">Attribution</span>
+                                <span class="tag {% if title.attribution == "No" %}is-success{% else %}is-warning {% endif %}">
+                                        {{ title.attribution }}
+                                    </span>
+                                    </div>
+                                    </div>
+                                {% endif %}
+
+                        {# Commercial allowed? #}
+                            {% if title.commercial %}
+                                <div class="level-item">
+                                    <div class="tags has-addons">
+                                        <span class="tag is-light">Commercial</span>
+                                        <span class="tag {% if title.commercial == "Yes" %}is-success{% else %}is-warning{% endif %}">
+                                        {{ title.commercial }}
+                                    </span>
+                                    </div>
                                 </div>
-                            </div>
-                        {% endif %}
-                        {# Check if there last update is set to visible. If so, display it #}
-                        {% if not title.show_modified == 'No' %}
-                            <div class="level-item">
-                                <div class="tags has-addons">
-                                    <span class="tag is-normal">Last update:</span>
-                                    <span class="tag is-normal is-info is-light">{{ title.modified|strftime('%d %B %Y') }}</span>
+                            {% endif %}
+
+                            {# Check if there are tags. If so, display them #}
+                            {% if title.tags %}
+                                <div class="level-item">
+                                    <div class="tags has-addons">
+                                        <span class="tag is-light">Tags</span>
+                                        {% for tag in title.tags %}
+                                            <span class="tag is-info is-light"><a href="/{{ tag.url }}">{{ tag.name }}</a></span>
+                                        {% endfor %}
+                                    </div>
                                 </div>
-                            </div>
-                        {% endif %}
-                    </nav>
-                    {# End lower part of the box #}
+                            {% endif %}
+                            {# Check if there last update is set to visible. If so, display it #}
+                            {% if not title.show_modified == 'No' %}
+                                <div class="level-item">
+                                    <div class="tags has-addons">
+                                        <span class="tag is-light">Last update:</span>
+                                        <span class="tag is-info is-light">{{ title.modified|strftime('%d %B %Y') }}</span>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        </nav>
+                        {# End lower part of the box #}
 
                 </div>
             </div>
