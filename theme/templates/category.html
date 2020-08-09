@@ -31,7 +31,7 @@
                         {# Check if the link is internal or not and if it is, link it to the internal article #}
                         <a {% if not title.link %}href="/{{ title.url }}"{% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
                             <div class="is-size-2" style="float:right">
-                                <img src="{{ title.icon }}" title="{{ title.title }}" alt="Icon {{ title.title }}" intrinsicsize="35 x 35" style="" width="35px" height="35px">
+                                <img src="{{ title.icon }}" title="{{ title.title }}" alt="Icon {{ title.title }}" intrinsicsize="45 x 45" style="" width="45px" height="45px">
                             </div>
                         </a>
                     {% endif %}
@@ -69,7 +69,7 @@
                     <nav class="level is-mobile">
                         {# Check if there are tags. If so, display them #}
                         {% if title.tags %}
-                            <div class="level-item">
+                            <div class="level-left">
                                 <div class="tags has-addons">
                                     <span class="tag is-info is-normal">Tags:</span>
                                     {% for tag in title.tags %}
