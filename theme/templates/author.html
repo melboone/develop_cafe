@@ -1,5 +1,46 @@
 {% extends 'base.html' %}
 {% block title %}{{ author }}{% endblock title %}
 {% block content %}
-    Not implemented yet
+    <p>
+        List of articles by <strong>{{ author }}</strong>
+    </p>
+
+    <table class="table is-bordered is-striped is-narrow is-hoverable">
+        <thead>
+        <tr>
+            <th>Article</th>
+            <th>Created</th>
+            <th>Last update</th>
+            <th>Article Tags</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for article in articles|sort(attribute="date") %}
+            <tr>
+                <td><a href="/{{ article.url }}">{{ article.title }}</a></td>
+                <td>
+                    {# If the date is hidden, don't show it #}
+                    {% if not article.show_date == 'No' %}
+                        {{ article.date|strftime('%d %B %Y') }}
+                    {% else %}
+                        Not shown
+                    {% endif %}
+                </td>
+                <td>
+                    {# If the update date is hidden, don't show it #}
+                    {% if not article.show_modified == 'No' %}
+                        {{ article.modified|strftime('%d %B %Y') }}
+                    {% else %}
+                        Not shown
+                    {% endif %}
+                </td>
+                <td>
+                    {% for tag in article.tags %}
+                        <a href="/{{ tag.url }}">{{ tag }}</a>
+                    {% endfor %}
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
 {% endblock content %}
