@@ -1,6 +1,38 @@
 {% extends 'base.html' %}
 {% block title %}{{ tag }}{% endblock title %}
 {% block content %}
-    {{ tag }}
-    -- Not implemented yet --
+    <p>
+        List of articles with tag: <strong>{{ tag }}</strong>
+    </p>
+
+    <table class="table is-bordered is-striped is-narrow is-hoverable">
+        <thead>
+        <tr>
+            <th>Article</th>
+            <th>Created</th>
+            <th>Last update</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for article in articles %}
+            <tr>
+                <td><a href="/{{ article.url }}">{{ article.title }}</a></td>
+                <td>
+                    {% if not article.show_date == 'No' %}
+                        {{ article.date|strftime('%d %B %Y') }}
+                    {% else %}
+                        Not shown
+                    {% endif %}
+                </td>
+            <td>
+                {% if not article.show_modified == 'No' %}
+                    {{ article.modified|strftime('%d %B %Y') }}
+                {% else %}
+                    Not shown
+                {% endif %}
+            </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
 {% endblock content %}
