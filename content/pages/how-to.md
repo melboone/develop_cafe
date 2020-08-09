@@ -26,7 +26,8 @@ Every page, at a minimum, must have the following:
 As you can see the `Slug:` contains the category before the actual slug. This helps 
 better categorizing the URLs and avoid confusion.
 
-For general pages, such as this one or [`About`](pages/about.html), category is always `pages/`.
+For general pages, such as this one or [`About`](pages/about.html), category is 
+always `pages/`.
 
 ## Optional Fields
 
@@ -44,7 +45,8 @@ For general pages, such as this one or [`About`](pages/about.html), category is 
 | template:    | Name of template to use to generate content                                                                                                                                                                                                                                                                                                |
 | status:      | Content status: `draft`, `hidden`, or `published`                                                                                                                                                                                                                                                                                          |
 | translation: | Is content is a translation of another (`true` or `false`)                                                                                                                                                                                                                                                                                 |
-| lang         | Content language ID (`en`, `fr`, etc.)                                                                                                                                                                                                                                                                                                     |
+| Lang:        | Content language ID (`en`, `fr`, etc.)                                                                                                                                                                                                                                                                                                     |
+| Icon:        | Add a link to the SVG icon                                                                                                                                                                                                                                                                                                                 |
 
 ## Creating a new page
 

@@ -21,10 +21,10 @@ Files here are archived normally. Parameters:
 * Word Size: 32
 
 
-| *File name* | *File Size* | *Download* | *File Description*                                                                                          |
+| File name   | File Size   | Download   | File Description                                                                                            |
 |-------------|-------------|------------|-------------------------------------------------------------------------------------------------------------|
-| zip-file-1  | 159 bytes   | [Download](#)   | Contains only 1 txt file                                                                                    |
-| zip-file-2  | 171 bytes   | [Download](#)   | Contains only 1 file<br>Password: 1234                                                                      |
-| zip-file-3  | 171 bytes   | [Download](#)   | Contains only 1 file.<br>Password: 1234abcd                                                                 |
+| zip-file-1  | 159 bytes   | [Download](#)   | Contains only 1 txt file                                                                               |
+| zip-file-2  | 171 bytes   | [Download](#)   | Contains only 1 file<br>Password: 1234                                                                 |
+| zip-file-3  | 171 bytes   | [Download](#)   | Contains only 1 file.<br>Password: 1234abcd                                                            |
 | zip-file-4  | 465 bytes   | [Download](#)   | This zip file contains 2 other files, zip.001 and zip.002.<br>Extracting both will reveal the file test.txt |
 
