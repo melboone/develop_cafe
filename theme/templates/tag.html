@@ -2,7 +2,7 @@
 {% block title %}{{ tag }}{% endblock title %}
 {% block content %}
     <p>
-        List of articles with tag: <strong>{{ tag }}</strong>
+        List of articles with tag: <strong>{{ tag }}</strong>.
     </p>
 
     <table class="table is-bordered is-striped is-narrow is-hoverable">
@@ -14,23 +14,25 @@
         </tr>
         </thead>
         <tbody>
-        {% for article in articles %}
+        {% for article in articles|sort(attribute="date") %}
             <tr>
                 <td><a href="/{{ article.url }}">{{ article.title }}</a></td>
                 <td>
+                    {# If the date is hidden, don't show it #}
                     {% if not article.show_date == 'No' %}
                         {{ article.date|strftime('%d %B %Y') }}
                     {% else %}
                         Not shown
                     {% endif %}
                 </td>
-            <td>
-                {% if not article.show_modified == 'No' %}
-                    {{ article.modified|strftime('%d %B %Y') }}
-                {% else %}
-                    Not shown
-                {% endif %}
-            </td>
+                <td>
+                    {# If the update date is hidden, don't show it #}
+                    {% if not article.show_modified == 'No' %}
+                        {{ article.modified|strftime('%d %B %Y') }}
+                    {% else %}
+                        Not shown
+                    {% endif %}
+                </td>
             </tr>
         {% endfor %}
         </tbody>
