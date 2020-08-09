@@ -21,27 +21,76 @@
 {% endblock article_details %}
 {% block content %}
     <div class="columns is-multiline">
+        {# Start creation of new box for every article #}
         {% for title in articles %}
             <div class="column is-half">
-                <a href="/{{ title.url }}">
-                    <div class="box">
-                        {% if title.icon %}
+                <div class="box">
+                    {# Begin Box Icon. Icon is linked to the internal article or external link #}
+                    {# Check if there is an icon. If it is, display it #}
+                    {% if title.icon %}
+                        {# Check if the link is internal or not and if it is, link it to the internal article #}
+                        <a {% if not title.link %}href="/{{ title.url }}"{% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
                             <div class="is-size-2" style="float:right">
                                 <img src="{{ title.icon }}" title="{{ title.title }}" alt="Icon {{ title.title }}" intrinsicsize="35 x 35" style="" width="35px" height="35px">
                             </div>
+                        </a>
+                    {% endif %}
+                    {# End Box Icon #}
+
+                    {# Begin title of the box #}
+                    {# Contains Title and Author #}
+                    <div class="title">
+                        {# Check if the link is internal or not and if it is, link it to the internal article #}
+                        <a {% if not title.link %}href="/{{ title.url }}"{% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
+                            {{ title.title }}
+                        </a>
+                        {# Check if there is an author. If it is, display it and link it to the author page#}
+                        {% if title.author %}
+                            <div class="tags has-addons is-normal has-text-weight-normal mt-2">
+                                <span class="tag is-normal is-link">Author:</span>
+                                <span class="tag is-normal is-info is-light">
+                                        <a href="#">{{ title.author }}</a>
+                                    </span>
+                            </div>
                         {% endif %}
-                        <div class="title">{{ title.title }}</div>
-                        <div>{{ title.summary }}</div>
-                        <div class="level">
-                            <div class="control">
+                    </div>
+                    {# End Title and Author #}
+
+                    {# Begin content Summary. #}
+                    <div>
+                        {# Check if the link is internal or not and create a link the summary #}
+                        <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
+                            {{ title.summary }}
+                        </a>
+                    </div>
+                    {# End content summary #}
+
+                    {# Begin lower part of the box #}
+                    <nav class="level is-mobile">
+                        {# Check if there are tags. If so, display them #}
+                        {% if title.tags %}
+                            <div class="level-item">
+                                <div class="tags has-addons">
+                                    <span class="tag is-info is-normal">Tags:</span>
+                                    {% for tag in title.tags %}
+                                        <span class="tag is-normal is-info is-light"><a href="/{{ tag.url }}">{{ tag.name }}</a></span>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        {% endif %}
+                        {# Check if there last update is set to visible. If so, display it #}
+                        {% if not title.show_modified == 'No' %}
+                            <div class="level-item">
                                 <div class="tags has-addons">
                                     <span class="tag is-normal">Last update:</span>
                                     <span class="tag is-normal is-info is-light">{{ title.modified|strftime('%d %B %Y') }}</span>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </a>
+                        {% endif %}
+                    </nav>
+                    {# End lower part of the box #}
+
+                </div>
             </div>
         {% endfor %}
     </div>

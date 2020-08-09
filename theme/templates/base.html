@@ -36,18 +36,22 @@
                 <a href="#page-title" id="page-title" class="title is-4 has-text-weight-normal is-spaced anchor mb-2">
                     <span>
                         {% if page %}{{ page.title|capitalize() }}
-                        {% elif article %}{{ article.title|capitalize() }}
-                        {% elif category %}{{ category|capitalize() }} sample files
+                            {% elif article %}{{ article.title|capitalize() }}
+                            {% elif category %}{{ category|capitalize() }} sample files
                         {% elif tag %}Tag: {{ tag }}
                         {% elif author %}By author: {{ author }}
                         {% endif %}
                     </span>
                 </a>
-                {% block article_details %}{% endblock article_details %}
+                {% block article_details %}
+                {% endblock article_details %}
+
+                {# Page Content #}
                 <div class="my-5">
                     {% block content %}
                     {% endblock %}
                 </div>
+                {# End page content #}
             </div>
         </section>
         <footer class="footer">
