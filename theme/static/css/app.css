@@ -4742,8 +4742,8 @@ a.box:active {
 }
 .table td.is-selected,
 .table th.is-selected {
-  background-color: #1e88e5;
-  color: #fff;
+  background-color: #b5b5b5;
+  color: #b5b5b5;
 }
 .table td.is-selected a,
 .table td.is-selected strong,
@@ -4762,8 +4762,8 @@ a.box:active {
   text-align: inherit;
 }
 .table tr.is-selected {
-  background-color: #1e88e5;
-  color: #fff;
+  background-color: #b5b5b5;
+  color: #b5b5b5;
 }
 .table tr.is-selected a,
 .table tr.is-selected strong {
@@ -4771,7 +4771,7 @@ a.box:active {
 }
 .table tr.is-selected td,
 .table tr.is-selected th {
-  border-color: #fff;
+  border-color: #b5b5b5;
   color: currentColor;
 }
 .table thead {
@@ -4809,10 +4809,10 @@ a.box:active {
   width: 100%;
 }
 .table.is-hoverable tbody tr:not(.is-selected):hover {
-  background-color: #3298dc;
+  background-color: #b5b5b5;
 }
 .table.is-hoverable.is-striped tbody tr:not(.is-selected):hover {
-  background-color: #3298dc;
+  background-color: #b5b5b5;
 }
 .table.is-hoverable.is-striped tbody tr:not(.is-selected):hover:nth-child(even) {
   background-color: whitesmoke;
@@ -4822,7 +4822,7 @@ a.box:active {
   padding: 0.25em 0.5em;
 }
 .table.is-striped tbody tr:not(.is-selected):nth-child(even) {
-  background-color: #3298dc;
+  background-color: rgba(0, 0, 0, 0.08);
 }
 
 .table-container {
