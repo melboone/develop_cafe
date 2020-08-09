@@ -4,11 +4,14 @@ Date: 5 August 2020
 Modified: 9 August 2020
 Author: Julian
 Tags: samples, files, zip
-Summary: ZIP is an archive file format that supports lossless data compression. A ZIP file may contain one or more files or directories that may have been compressed. The ZIP file format permits a number of compression algorithms, though DEFLATE is the most common.
+Summary: ZIP is an archive file format that supports lossless data compression.
 Icon: https://www.svgrepo.com/show/21257/7z.svg
+category: archives
 
 
-ZIP is an archive file format that supports lossless data compression. A ZIP file may contain one or more files or directories that may have been compressed. The ZIP file format permits a number of compression algorithms, though DEFLATE is the most common.
+ZIP is an archive file format that supports lossless data compression. A ZIP file may 
+contain one or more files or directories that may have been compressed. The ZIP file 
+format permits a number of compression algorithms, though DEFLATE is the most common.
 
 Files here are archived normally. Parameters:
 

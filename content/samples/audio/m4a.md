@@ -1,13 +1,10 @@
-Title: .7z
-Slug: samples/archives/7z-samples
-Date: 5 August 2020
+Title: m4a
+Slug: samples/audio/m4a-samples
+Date: 9 August 2020
 Modified: 9 August 2020
-Author: Julian
-Tags: samples, files, 7z
-Summary:  7z file archive
-category: archives
-
-7z is a compressed archive file format that supports several different data compression, encryption and pre-processing algorithms. The 7z format initially appeared as implemented by the 7-Zip archiver. The 7-Zip program is publicly available and can be downloaded from 
+Tags: samples, files, audio, m4a
+Summary: m4a audio digital sample file
+Category: Audio
 
 | *File name* | *File Size* | *Download* | *File Description*                                                                                          |
 |-------------|-------------|------------|-------------------------------------------------------------------------------------------------------------|

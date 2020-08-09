@@ -10,8 +10,8 @@ from __future__ import unicode_literals
 
 # Website details
 SITENAME = "Develop Cafe"
-SITEURL = "https://develop.cafe"
-# SITEURL = "http://127.0.0.1:8001"
+# SITEURL = "https://develop.cafe"
+SITEURL = "http://127.0.0.1:8001"
 PATH = "content"
 TIMEZONE = "UTC"
 
@@ -25,18 +25,22 @@ DISPLAY_CATEGORIES_ON_MENU = False
 # Every link needs to the entry added below. Format: Black
 MENUITEMS = [
     # ("Home", "/"),
-    (
-        "Digital Samples",
-        [
-            ("Archives", "/category/archives.html"),
-            ("Audio", "/audio"),
-            ("Coding", "/archives/zip.html"),
-            ("Databases", "/archives/zip.html"),
-            ("Documents", "/archives/zip.html"),
-            ("Images", "/archives/zip.html"),
-            ("Spreadsheets", "/archives/zip.html"),
-        ],
-    ),
+    ("Digital Samples",
+     [
+         ("Archives", "/category/archives.html"),
+         ("Audio", "/category/audio.html"),
+         ("Coding", "/category/zip.html"),
+         ("Databases", "/category/zip.html"),
+         ("Documents", "/category/zip.html"),
+         ("Images", "/category/zip.html"),
+         ("Spreadsheets", "/category/zip.html"),
+     ],
+     ),
+    ("Images",
+     [
+         ("Illustrations", "/category/illustrations.html"),
+     ],
+     ),
 ]
 
 # Feed generation is usually not desired when developing
