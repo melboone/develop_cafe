@@ -23,106 +23,113 @@
     <div class="columns is-multiline">
         {# Start creation of new box for every article #}
         {% for title in articles %}
+            {# Begin Box Icon. Icon is linked to the internal article or external link #}
             <div class="column is-half">
                 <div class="box">
+                    <article class="media">
 
-                    {# Begin Box Icon. Icon is linked to the internal article or external link #}
-                    {# Check if there is an icon. If it is, display it #}
-                    {% if title.icon %}
-                        {# Check if the link is internal or not and if it is, link it to the internal article #}
-                        <a {% if not title.link %}href="/{{ title.url }}"{% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
-                            <div class="is-size-2" style="float:right">
-                                <img src="{{ title.icon }}?tr:ar-9-16,w-80,h-95" title="{{ title.title }}" alt="Icon {{ title.title }}" width="80">
-                            </div>
-                        </a>
-                    {% endif %}
-                    {# End Box Icon #}
-
-                    {# Begin title of the box #}
-                    {# Contains Title and Author #}
-                    <div class="title">
-                        {# Check if the link is internal or not and if it is, link it to the internal article #}
-                        <a {% if not title.link %}href="/{{ title.url }}"{% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
-                            {{ title.title }}
-                        </a>
-                        {# Check if there is an author. If it is, display it and link it to the author page#}
-                        {% if title.authors or title.author %}
-                            <div class="tags has-addons has-text-weight-normal mt-2">
-                                <span class="tag is-link">
-                                    {% if title.authors|wordcount() == 4 %}Authors:
-                                    {% else %} Author:
-                                    {% endif %}
-                                </span>
-                                {% for author in title.authors %}
-                                    <span class="tag is-link is-light">
-                                        <a href="/{{ author.url }}">{{ author }}</a>
-                                    </span>
-                                {% endfor %}
+                        {# Check if there is an icon. If it is, display it #}
+                        {% if title.icon %}
+                            {# Check if the link is internal or not and if it is, link it to the internal article #}
+                            <div class="media-left">
+                                <figure>
+                                    <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
+                                        <img width="85" src="{{ title.icon }}" title="{{ title.title }}" alt="Icon {{ title.title }}">
+                                    </a>
+                                </figure>
                             </div>
                         {% endif %}
-                    </div>
-                    {# End Title and Author #}
+                        {# End Box Icon #}
 
-                    {# Begin content Summary. #}
-                    <div>
-                        {# Check if the link is internal or not and create a link the summary #}
-                        <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
-                            {{ title.summary }}
-                        </a>
-                    </div>
-                    {# End content summary #}
+                        {# Begin title of the box #}
+                        {# Contains Title and Author #}
+                        <div class="media-content">
+                            <div class="content">
+                                <p class="title is-4">
+                                    {# Check if the link is internal or not and if it is, link it to the internal article #}
+                                    <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
+                                        {{ title.title }}
+                                        <span>
+                                        {% if title.link %}
+                                            <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/external.png" width="14" style="float: right;opacity: 0.5;">
+                                            </span>
+                                        {% endif %}
+                                    </a>
+                                </p>
 
-                    {# Begin lower part of the box #}
-                    {# Attribution Required? #}
-                    <nav class="level is-mobile">
-                        {% if title.attribution %}
-                        <div class="level-left">
-                            <div class="tags has-addons">
-                                <span class="tag is-light">Attribution</span>
-                                <span class="tag {% if title.attribution == "No" %}is-success{% else %}is-warning{% endif %}">
+                                {# Check if there is an author. If it is, display it and link it to the author page#}
+                                {% if title.authors or title.author %}
+                                    <div class="tags has-addons mt-2">
+                                        <span class="tag">Submission by:</span>
+                                        {% for author in title.authors %}
+                                            <span class="tag is-link is-light">{{ author }}</span>
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+                                {# End Title and Author #}
+
+                                {# Begin content Summary. #}
+                                {# Check if the link is internal or not and create a link the summary #}
+                                <p>
+                                    <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
+                                        {{ title.summary }}
+                                    </a>
+                                    {# End content summary #}
+                                </p>
+                            </div>
+
+                            {# Begin lower part of the box #}
+                            {# Attribution Required? #}
+                            <nav class="level is-mobile">
+                                {% if title.attribution %}
+                                    <div class="level-left">
+                                        <div class="tags has-addons">
+                                            <span class="tag is-light">Attribution</span>
+                                            <span class="tag {% if title.attribution == "No" %}is-success{% else %}is-warning{% endif %}">
                                         {{ title.attribution }}
                                     </span>
-                                    </div>
+                                        </div>
                                     </div>
                                 {% endif %}
 
-                        {# Commercial allowed? #}
-                            {% if title.commercial %}
-                                <div class="level-item">
-                                    <div class="tags has-addons">
-                                        <span class="tag is-light">Commercial</span>
-                                        <span class="tag {% if title.commercial == "Yes" %}is-success{% else %}is-danger{% endif %}">
+                                {# Commercial allowed? #}
+                                {% if title.commercial %}
+                                    <div class="level-item">
+                                        <div class="tags has-addons">
+                                            <span class="tag is-light">Commercial</span>
+                                            <span class="tag {% if title.commercial == "Yes" %}is-success{% else %}is-danger{% endif %}">
                                         {{ title.commercial }}
                                     </span>
+                                        </div>
                                     </div>
-                                </div>
-                            {% endif %}
+                                {% endif %}
 
-                            {# Check if there are tags. If so, display them #}
-                            {% if title.tags %}
-                                <div class="level-item">
-                                    <div class="tags has-addons">
-                                        <span class="tag is-light">Tags</span>
-                                        {% for tag in title.tags %}
-                                            <span class="tag is-info is-light"><a href="/{{ tag.url }}">{{ tag.name }}</a></span>
-                                        {% endfor %}
+                                {# Check if there are tags. If so, display them #}
+                                {% if title.tags %}
+                                    <div class="level-item">
+                                        <div class="tags has-addons">
+                                            <span class="tag is-light">Tags</span>
+                                            {% for tag in title.tags %}
+                                                <span class="tag is-info is-light"><a href="/{{ tag.url }}">{{ tag.name }}</a></span>
+                                            {% endfor %}
+                                        </div>
                                     </div>
-                                </div>
-                            {% endif %}
-                            {# Check if there last update is set to visible. If so, display it #}
-                            {% if not title.show_modified == 'No' %}
-                                <div class="level-item">
-                                    <div class="tags has-addons">
-                                        <span class="tag is-light">Last update:</span>
-                                        <span class="tag is-info is-light">{{ title.modified|strftime('%d %B %Y') }}</span>
+                                {% endif %}
+                                {# Check if there last update is set to visible. If so, display it #}
+                                {% if not title.show_modified == 'No' %}
+                                    <div class="level-item">
+                                        <div class="tags has-addons">
+                                            <span class="tag is-light">Last update:</span>
+                                            <span class="tag is-info is-light">{{ title.modified|strftime('%d %B %Y') }}</span>
+                                        </div>
                                     </div>
-                                </div>
-                            {% endif %}
-                        </nav>
-                        {# End lower part of the box #}
+                                {% endif %}
+                            </nav>
+                            {# End lower part of the box #}
 
+                        </div>
+                    </article>
                 </div>
             </div>
         {% endfor %}
-    </div>
 {% endblock content %}
