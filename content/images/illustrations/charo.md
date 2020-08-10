@@ -1,0 +1,14 @@
+Title: Charco
+Slug: images/illustrations/charco
+Date: 10 August 2020
+Show_date: No
+Modified: 10 August 2020
+Show_modified: No
+Tags: 404, error, website
+Category: illustrations
+Summary: A set of 16 handcrafted illustrations for your web & app projects. This set includes categories like 404 error, no internet connection, no service, fatal error, page not found, something went wrong.
+Link: https://www.karthiksrinivas.in/charco
+Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/charco_3OKmvJGxE.png?tr=w-80,h-95,c-t_least
+Attribution: No
+Commercial: Yes
+ 
