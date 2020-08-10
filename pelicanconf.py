@@ -17,7 +17,7 @@ TIMEZONE = "UTC"
 
 # Translations
 DEFAULT_LANG = "en"
-ARTICLE_TRANSLATION_ID = 'slug'
+ARTICLE_TRANSLATION_ID = "slug"
 
 # Menu sorting and listing. Categories are hidden by default so we can add them properly below
 DISPLAY_CATEGORIES_ON_MENU = False
@@ -25,23 +25,30 @@ DISPLAY_CATEGORIES_ON_MENU = False
 # Every link needs to the entry added below. Format: Black
 MENUITEMS = [
     # ("Home", "/"),
-    ("Digital Samples",
-     [
-         ("Archives", "/category/archives.html"),
-         # ("Audio", "/category/audio.html"),
-         # ("Coding", "/category/zip.html"),
-         # ("Databases", "/category/zip.html"),
-         # ("Documents", "/category/zip.html"),
-         # ("Images", "/category/zip.html"),
-         # ("Spreadsheets", "/category/zip.html"),
-     ],
-     ),
-    ("Images",
-     [
-         # ("Icons", "/category/icons.html"),
-         ("Illustrations", "/category/illustrations.html"),
-     ],
-     ),
+    (
+        "Digital Samples",
+        [
+            ("Archives", "/category/archives.html"),
+            # ("Audio", "/category/audio.html"),
+            # ("Coding", "/category/zip.html"),
+            # ("Databases", "/category/zip.html"),
+            # ("Documents", "/category/zip.html"),
+            # ("Images", "/category/zip.html"),
+            # ("Spreadsheets", "/category/zip.html"),
+        ],
+    ),
+    (
+        "Images",
+        [
+            ("Illustrations", "/category/illustrations.html"),
+        ],
+    ),
+    (
+        "Hosting",
+        [
+            ("Image-CDN", "/category/image-cdn.html"),
+        ],
+    ),
 ]
 
 # Feed generation is usually not desired when developing
@@ -67,7 +74,7 @@ DEFAULT_PAGINATION = False
 
 # Set the theme folder
 THEME = "theme/"
-CSS_FILE = 'main.css'
+CSS_FILE = "main.css"
 
 # Custom Variables
 META_KEYWORDS = ""
@@ -75,11 +82,11 @@ META_KEYWORDS = ""
 # static paths will be copied without parsing their contents
 STATIC_PATHS = [
     "pictures",
-    'extra/robots.txt',
+    "extra/robots.txt",
 ]
 # path-specific metadata
 EXTRA_PATH_METADATA = {
-    'extra/robots.txt': {'path': 'robots.txt'},
+    "extra/robots.txt": {"path": "robots.txt"},
 }
 
 # code blocks with line numbers
@@ -90,24 +97,24 @@ PYGMENTS_RST_OPTIONS = {"linenos": "table"}
 # at the beginning of the page
 DISPLAY_PAGES_ON_MENU = True
 
-READERS = {'html': None}
-IGNORE_FILES = ['.#*']
+READERS = {"html": None}
+IGNORE_FILES = [".#*"]
 GZIP_CACHE = True
 
 # Let's declare the category and TAGS express output files, for visibility sake
 # CATEGORY_URL = 'category/{slug}.html'
 # CATEGORY_SAVE_AS = None
-TAG_URL = 'tag/{slug}.html'
-TAG_SAVE_AS = 'tag/{slug}.html'
-TAGS_SAVE_AS = 'tags.html'
+TAG_URL = "tag/{slug}.html"
+TAG_SAVE_AS = "tag/{slug}.html"
+TAGS_SAVE_AS = "tags.html"
 # Don't create an all categories file
-CATEGORIES_SAVE_AS = ''
+CATEGORIES_SAVE_AS = ""
 
 # Set the date format
 DATE_FORMATS = {
-    'en': '%a, %d %b %Y',  # English
-    'en_US': '%a, %d %b %Y',  # United States of America
-    'jp': '%Y-%m-%d(%a)',  # Japan
+    "en": "%a, %d %b %Y",  # English
+    "en_US": "%a, %d %b %Y",  # United States of America
+    "jp": "%Y-%m-%d(%a)",  # Japan
 }
 # #
 # # # Extra Plugins
