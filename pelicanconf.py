@@ -11,7 +11,7 @@ from __future__ import unicode_literals
 # Website details
 SITENAME = "Develop Cafe"
 # SITEURL = "https://develop.cafe"
-SITEURL = "http://127.0.0.1:8001"
+SITEURL = "http://127.0.0.1:8000"
 PATH = "content"
 TIMEZONE = "UTC"
 
@@ -28,17 +28,17 @@ MENUITEMS = [
     ("Digital Samples",
      [
          ("Archives", "/category/archives.html"),
-         ("Audio", "/category/audio.html"),
-         ("Coding", "/category/zip.html"),
-         ("Databases", "/category/zip.html"),
-         ("Documents", "/category/zip.html"),
-         ("Images", "/category/zip.html"),
-         ("Spreadsheets", "/category/zip.html"),
+         # ("Audio", "/category/audio.html"),
+         # ("Coding", "/category/zip.html"),
+         # ("Databases", "/category/zip.html"),
+         # ("Documents", "/category/zip.html"),
+         # ("Images", "/category/zip.html"),
+         # ("Spreadsheets", "/category/zip.html"),
      ],
      ),
     ("Images",
      [
-         ("Icons", "/category/icons.html"),
+         # ("Icons", "/category/icons.html"),
          ("Illustrations", "/category/illustrations.html"),
      ],
      ),
