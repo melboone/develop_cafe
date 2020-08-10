@@ -25,13 +25,14 @@
         {% for title in articles %}
             <div class="column is-half">
                 <div class="box">
+
                     {# Begin Box Icon. Icon is linked to the internal article or external link #}
                     {# Check if there is an icon. If it is, display it #}
                     {% if title.icon %}
                         {# Check if the link is internal or not and if it is, link it to the internal article #}
                         <a {% if not title.link %}href="/{{ title.url }}"{% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
                             <div class="is-size-2" style="float:right">
-                                <img src="{{ title.icon }}" title="{{ title.title }}" alt="Icon {{ title.title }}" width="70">
+                                <img src="{{ title.icon }}?tr:ar-9-16,w-80,h-95" title="{{ title.title }}" alt="Icon {{ title.title }}" width="80">
                             </div>
                         </a>
                     {% endif %}

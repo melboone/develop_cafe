@@ -7,7 +7,7 @@ show_modified: No
 Tags: abstract design, abstract
 Category: Illustrations
 Link: https://absurd.design
-Icon: https://imagecdn.app/v1/images/https%3A%2F%2Fabsurd.design%2Fassets%2Fimg%2Fchapter2%2Fgallery-chapter2-27.jpg?width=70&height=95
+Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/absurd_0HZwIcO7t.png
 Summary:  Free surrealist illustrations, that paradoxically combines absurdity and a deep sense of childishness and naivety.  Attribution required.
 Attribution: Yes
 Commercial: Yes

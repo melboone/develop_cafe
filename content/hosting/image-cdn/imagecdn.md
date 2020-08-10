@@ -8,7 +8,7 @@ Tags: free, cdn, hosting
 Category: image-cdn
 Summary: A free image resizing service and CDN.
 Link: https://imagecdn.app/getting-started
-Icon: https://imagecdn.app/v1/images/https%3A%2F%2Fimages.unsplash.com%2Fphoto-1525923838299-2312b60f6d69?width=95&height=80
+Icon: https://imagecdn.app/v1/images/https%3A%2F%2Fimages.unsplash.com%2Fphoto-1525923838299-2312b60f6d69
 Attribution: No
 Commercial: Yes
  

@@ -8,6 +8,6 @@ Tags: mix, custom images
 Category: Illustrations
 Summary: Create, mix, and customize illustrations made by artists around the world.
 Link: https://blush.design/
-Icon: https://imagecdn.app/v1/images/https%3A%2F%2Fblush.ly%2F113jge5NG%2Fp?width=70&height=95
+Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/blush_bcC3rT-PC.png
 Attribution: No
 Commercial: Yes

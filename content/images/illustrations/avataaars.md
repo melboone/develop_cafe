@@ -10,6 +10,6 @@ Commercial: Yes
 Attribution: No
 Summary:  Create avatar illustrations in Sketch App with this free library. Combine clothes, hair, emotions, accessories, and colors. Free for commercial & personal use. Non commercial.
 Link: https://avataaars.com/
-Icon: https://imagecdn.app/v1/images/https%3A%2F%2Favataaars.com%2Fimages%2Fsplit-image.jpg?width=70&height=95
+Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/aavataar_pKvHqTjO8.jpg
 
 

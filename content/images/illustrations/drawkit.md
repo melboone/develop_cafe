@@ -8,7 +8,7 @@ Tags: image,
 Category: illustrations
 Summary: Hand-drawn vector illustration and icon resources, perfect for your next project.
 Link: https://www.drawkit.io/free
-Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/drawkit_c5PB8HaFE.svg?tr=w-80,h-95,c-t_least
+Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/drawkit_c5PB8HaFE.svg
 Attribution: No
 Commercial: Yes
  

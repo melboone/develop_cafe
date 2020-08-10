@@ -8,6 +8,6 @@ Tags: art, artistic
 Category: Illustrations
 Summary: Free Artistic Illustrations for Designers. Explore artistic illustrations and vector art.
 Link: https://bulbman.art
-Icon: https://imagecdn.app/v1/images/https%3A%2F%2Fbulbman.art%2Fwp-content%2Fuploads%2F2020%2F04%2FRemote-working-in-color.jpg?width=70&height=95
+Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/bulbman_9Y5VmZPkf.png
 Attribution: Yes
 Commercial: Yes

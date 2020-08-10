@@ -8,6 +8,6 @@ Tags: 404, not-found
 Category: Illustrations
 Summary:  Royalty free illustrations for 404 error pages
 Link: https://error404.fun
-Icon: https://imagecdn.app/v1/images/https%3A%2F%2Ferror404.fun%2Fimg%2Fillustrations%2F10.png?width=70&height=95
+Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/404_CiRF3retx.png
 Attribution: No
 Commercial: Yes
