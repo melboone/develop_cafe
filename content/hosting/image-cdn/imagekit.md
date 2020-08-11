@@ -11,5 +11,6 @@ Icon:
 Summary:  Free surrealist illustrations, that paradoxically combines absurdity and a deep sense of childishness and naivety.  Attribution required.
 Attribution: No
 Commercial: Yes
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/hosting/image-cdn/imagekit.md
 
 

@@ -1,7 +1,8 @@
 Title: About
-Date: 2010-12-03 10:20
-Modified: 2010-12-05 19:30
+Date: 5 August 2010
+Modified: 11 August 2020
 Category: Python
 Slug: pages/about
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/pages/about.md
 
 To be added

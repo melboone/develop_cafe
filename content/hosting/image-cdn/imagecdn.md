@@ -11,4 +11,4 @@ Link: https://imagecdn.app/getting-started
 Icon: https://imagecdn.app/v1/images/https%3A%2F%2Fimages.unsplash.com%2Fphoto-1525923838299-2312b60f6d69
 Attribution: No
 Commercial: Yes
- 
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/hosting/image-cdn/imagecdn.md

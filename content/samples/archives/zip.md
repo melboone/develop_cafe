@@ -8,7 +8,7 @@ Tags: samples, files, zip
 Summary: ZIP is an archive file format that supports lossless data compression.
 Icon: https://www.svgrepo.com/show/255837/zip.svg
 category: archives
-
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/samples/archives/zip.md
 
 ZIP is an archive file format that supports lossless data compression. A ZIP file may 
 contain one or more files or directories that may have been compressed. The ZIP file 

@@ -1,10 +1,10 @@
 Title: How to modify this page
-Date: 04-AUG-2020
+Date: 04 August 2020
 Show_date: No
-Modified: 04-AUG-2020
+Modified: 11 August 2020
 Slug: pages/how-to-modify-this-page
 Summary: How to modify Develop Cafe
-Category: FAQ
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/pages/how-to.md
 
 Get started with a [sample file](/theme/extra/page_template.md).
 
