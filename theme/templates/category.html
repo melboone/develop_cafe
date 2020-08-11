@@ -97,7 +97,7 @@
                                     <div class="level-left">
                                         <div class="tags has-addons">
                                             <span class="tag is-light">Attribution</span>
-                                            <span class="tag {% if title.attribution == "No" %}is-success{% else %}is-warning{% endif %}">
+                                            <span class="tag {% if title.attribution == "No" %}is-success{% elif title.attribution == "Yes" %}is-warning{% else %}is-danger{% endif %}">
                                         {{ title.attribution }}
                                     </span>
                                         </div>
