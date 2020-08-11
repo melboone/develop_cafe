@@ -11,4 +11,4 @@ Link: https://www.delesign.com/free-designs/graphics
 Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/slack-slack-com__9qplBuAD.svg
 Attribution: No
 Commercial: Yes
- 
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/deledesign.md

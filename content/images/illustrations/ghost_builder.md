@@ -11,4 +11,4 @@ Link: https://getillustrations.com/illustration-pack/ghost-illustrations-builder
 Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/ghost-builder_Kh6wabu8l.jpg
 Attribution: No
 Commercial: Yes
- 
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/ghost_builder.md

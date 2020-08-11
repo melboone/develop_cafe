@@ -11,3 +11,4 @@ Link: https://blush.design/
 Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/blush_bcC3rT-PC.png
 Attribution: No
 Commercial: Yes
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/blush.md

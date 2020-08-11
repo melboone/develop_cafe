@@ -11,3 +11,4 @@ Link: https://error404.fun
 Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/404_CiRF3retx.png
 Attribution: No
 Commercial: Yes
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/404_illustrations.md

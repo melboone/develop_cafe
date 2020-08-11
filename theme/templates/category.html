@@ -45,15 +45,27 @@
                         {# Contains Title and Author #}
                         <div class="media-content">
                             <div class="content">
-                                <p class="title is-4">
+
+                                {# Github & externa Link #}
+                                <div style="float: right; opacity: .5">
+                                    {% if title.github_edit_link %}
+                                        <a href="{{ title.github_edit_link }}" class="pr-3" style="vertical-align:middle;">
+                                            <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/github.svg" alt="Edit on GitHub" width="14">
+                                        </a>
+                                    {% endif %}
+
                                     {# Check if the link is internal or not and if it is, link it to the internal article #}
+                                    {% if title.link %}
+                                        <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
+                                            <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/external.png" width="14" alt="external link">
+                                        </a>
+                                    {% endif %}
+                                </div>
+
+                                <p class="title is-4">
+                                    {# Box Title with Link to internal or external#}
                                     <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
                                         {{ title.title }}
-                                        <span>
-                                        {% if title.link %}
-                                            <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/external.png" width="14" style="float: right;opacity: 0.5;">
-                                            </span>
-                                        {% endif %}
                                     </a>
                                 </p>
 
@@ -80,7 +92,7 @@
 
                             {# Begin lower part of the box #}
                             {# Attribution Required? #}
-                            <nav class="level is-mobile">
+                            <nav class="level is-mobile" style="overflow: hidden">
                                 {% if title.attribution %}
                                     <div class="level-left">
                                         <div class="tags has-addons">
@@ -104,17 +116,19 @@
                                     </div>
                                 {% endif %}
 
-                                {# Check if there are tags. If so, display them #}
-                                {% if title.tags %}
-                                    <div class="level-item">
-                                        <div class="tags has-addons">
-                                            <span class="tag is-light">Tags</span>
-                                            {% for tag in title.tags %}
-                                                <span class="tag is-info is-light"><a href="/{{ tag.url }}">{{ tag.name }}</a></span>
-                                            {% endfor %}
-                                        </div>
-                                    </div>
-                                {% endif %}
+                                {# Check if there are tags. If so, display them - Disabled on 11 August 2020, replaced with Github Edit Page Link #}
+                                {#                                {% if title.tags %}#}
+                                {#                                    <div class="level-item">#}
+                                {#                                        <div class="tags has-addons">#}
+                                {#                                            <span class="tag is-light">Tags</span>#}
+                                {#                                            {% for tag in title.tags %}#}
+                                {#                                                <span class="tag is-info is-light"><a href="/{{ tag.url }}">{{ tag.name }}</a></span>#}
+                                {#                                            {% endfor %}#}
+                                {#                                        </div>#}
+                                {#                                    </div>#}
+                                {#                                {% endif %}#}
+
+
                                 {# Check if there last update is set to visible. If so, display it #}
                                 {% if not title.show_modified == 'No' %}
                                     <div class="level-item">

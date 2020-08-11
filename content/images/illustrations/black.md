@@ -11,3 +11,4 @@ Link: https://www.blackillustrations.com
 Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/black_AHVq-PZXh.png
 Attribution: No
 Commercial: Yes
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/black.md

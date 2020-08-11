@@ -11,4 +11,4 @@ Link: https://www.karthiksrinivas.in/poke
 Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/poke_XK78OEq8J.png
 Attribution: Yes
 Commercial: Yes
- 
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/poke.md
