@@ -52,15 +52,14 @@ MENUITEMS = [
 ]
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
+#  Feeds
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
-# RSS Feeds
-FEED_ALL_RSS = "feeds/all.rss.xml"
-CATEGORY_FEED_RSS = "feeds/{slug}.rss.xml"
+FEED_ALL_RSS = None
+CATEGORY_FEED_RSS = None
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
 
 # Set the Github url
 GITHUB_URL = "https://github.com/melboone"
@@ -82,7 +81,7 @@ META_KEYWORDS = ""
 # static paths will be copied without parsing their contents
 STATIC_PATHS = [
     "pictures",
-    "extra/robots.txt",
+    "robots.txt",
 ]
 # path-specific metadata
 EXTRA_PATH_METADATA = {

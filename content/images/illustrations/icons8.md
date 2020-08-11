@@ -9,6 +9,6 @@ Category: illustrations
 Summary:
 Link:
 Icon:
-Attribution: No
+Attribution: Yes
 Commercial: Yes
 Github_link:
