@@ -41,6 +41,7 @@ MENUITEMS = [
         "Images",
         [
             ("Illustrations", "/category/illustrations.html"),
+            ("Icons", "/category/icons.html"),
         ],
     ),
     (
