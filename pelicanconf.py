@@ -38,10 +38,11 @@ MENUITEMS = [
         ],
     ),
     (
-        "Images",
+        "Front-End",
         [
             ("Illustrations", "/category/illustrations.html"),
             ("Icons", "/category/icons.html"),
+            ("Mockups", "/category/mockups.html"),
         ],
     ),
     (
