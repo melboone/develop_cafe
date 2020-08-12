@@ -1,0 +1,13 @@
+Title: Feathericons 
+Slug: images/icons/feathericons
+Date: 12 August 2020
+Show_date: No
+Modified: 12 August 2020
+Show_modified: No
+Category: icons
+Summary: Simply beautiful open source icons
+Link: https://feathericons.com/
+Icon:
+Attribution: No
+Commercial: Yes
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/icons/feathericons.md
