@@ -10,4 +10,4 @@ Link: www.evericons.com/
 Icon: www.evericons.com/img/evericons.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/icons/evericons.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/evericons.md

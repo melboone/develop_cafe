@@ -10,4 +10,4 @@ Link: https://www.isometriclove.com/
 Icon: img src="https://storage.googleapis.com/isometriclove.appspot.com/resized/thumb_company.png
 Attribution: Yes
 Commercial: No
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/icons/isometric.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/isometric.md

@@ -11,4 +11,4 @@ Link: https://www.karthiksrinivas.in/charco
 Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/charco_3OKmvJGxE.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/charo.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/charo.md

@@ -11,4 +11,4 @@ Link: https://www.drawkit.io/free
 Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/drawkit_c5PB8HaFE.svg
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/drawkit.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/drawkit.md

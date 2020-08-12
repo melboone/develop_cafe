@@ -10,4 +10,4 @@ Link: https://www.manuelalangella.com/retroooo-folks/
 Icon: https://www.manuelalangella.com/wp-content/uploads/2020/03/Asset-64.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/retroooo-folks.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/retroooo-folks.md

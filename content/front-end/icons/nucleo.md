@@ -10,4 +10,4 @@ Link: https://nucleoapp.com/
 Icon: https://nucleoapp.com/assets/img/logo-dark.svg
 Attribution: No
 Commercial: No
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/icons/nucleod.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/nucleod.md

@@ -10,4 +10,4 @@ Link: https://www.pixeltrue.com/free-illustrations
 Icon:
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/pixeltrue.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/pixeltrue.md

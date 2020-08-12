@@ -10,4 +10,4 @@ Link: https://lukaszadam.com/illustrations
 Icon: https://lukaszadam.com/assets/images/popup.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/lukaszadam.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/lukaszadam.md

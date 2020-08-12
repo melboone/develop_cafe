@@ -11,4 +11,4 @@ Link: https://iconscout.com/illustration-pack/indian-doodle?referral_code=G4O4IY
 Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/indian-doodle_vNrLvIQDu.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/indian-doodle.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/indian-doodle.md

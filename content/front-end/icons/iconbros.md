@@ -10,4 +10,4 @@ Link: https://www.iconbros.com/
 Icon: https://www.iconbros.com/assets/logo-ba988fad672f61d8a4b9a2ce7707c5ade6c868d2c99af49e74a815200dac0044.png
 Attribution: Yes
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/icons/iconbros.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/iconbros.md

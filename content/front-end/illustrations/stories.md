@@ -10,4 +10,4 @@ Link: https://stories.freepik.com/
 Icon:
 Attribution: Yes
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/stories.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/stories.md

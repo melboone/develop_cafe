@@ -10,4 +10,4 @@ Link: https://sketchvalley.com/
 Icon:
 Attribution: No
 Commercial: Yes
-Github_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/sketchvalley.md
+Github_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/sketchvalley.md

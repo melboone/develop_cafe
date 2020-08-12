@@ -11,4 +11,4 @@ Link: https://www.karthiksrinivas.in/dash
 Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/dash_K3h-zMbdF.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/dash.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/dash.md

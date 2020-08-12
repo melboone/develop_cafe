@@ -10,4 +10,4 @@ Link: https://iradesign.io/
 Icon: https://iradesign.io/assets/img/thumb_characters.jpg
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/ira-design.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/ira-design.md

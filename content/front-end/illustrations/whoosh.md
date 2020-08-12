@@ -11,4 +11,4 @@ Link: https://www.ls.graphics/illustrations/whoosh
 Icon: 
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/whoosh.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/whoosh.md

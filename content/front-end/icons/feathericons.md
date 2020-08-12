@@ -10,4 +10,4 @@ Link: https://feathericons.com/
 Icon:
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/icons/feathericons.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/feathericons.md

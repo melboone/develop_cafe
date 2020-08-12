@@ -10,4 +10,4 @@ Link: https://thenounproject.com/
 Icon: 
 Attribution: Yes
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/icons/the-noun-project.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/the-noun-project.md

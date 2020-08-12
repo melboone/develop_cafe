@@ -11,4 +11,4 @@ Link: https://bulbman.art
 Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/bulbman_9Y5VmZPkf.png
 Attribution: Yes
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/bulbman.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/bulbman.md

@@ -11,4 +11,4 @@ Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/absurd_0HZwIcO7t.p
 Summary:  Free surrealist illustrations, that paradoxically combines absurdity and a deep sense of childishness and naivety.  Attribution required.
 Attribution: Yes
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/404_illustrations.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/404_illustrations.md

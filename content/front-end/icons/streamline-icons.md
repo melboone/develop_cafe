@@ -10,4 +10,4 @@ Link: https://www.streamlineicons.com/index.html
 Icon: 
 Attribution: Yes
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/icons/streamline-icons.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/streamline-icons.md

@@ -10,4 +10,4 @@ Link: https://usesmash.com/
 Icon:
 Attribution: Unclear
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/smash-illustrations.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/smash-illustrations.md

@@ -10,4 +10,4 @@ Link: https://iconscout.com/paper-illustrations
 Icon: https://cdni.iconscout.com/illustration/free/preview/girl-taking-selfie-1707987-1447939.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/paper.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/paper.md

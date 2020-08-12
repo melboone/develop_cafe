@@ -10,4 +10,4 @@ Link: https://illustrio.com/
 Icon: https://illustrio.com/static/img/logo.svg
 Attribution: No
 Commercial: No
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/icons/illustrio.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/illustrio.md

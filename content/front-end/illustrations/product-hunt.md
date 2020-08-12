@@ -11,4 +11,4 @@ Link: https://getillustrations.com/illustration-pack/product-hunt-illustrations-
 Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/product-hunt__88WeHZnP.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/images/illustrations/product-hunt.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/product-hunt.md
