@@ -628,7 +628,7 @@ table th {
 }
 
 a.box:hover, a.box:focus {
-  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px #3273dc;
+  box-shadow: 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12), 0px 11px 15px -7px rgba(0, 0, 0, 0.2);
 }
 a.box:active {
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #3273dc;
@@ -16904,7 +16904,7 @@ a.has-text-youtube:hover, a.has-text-youtube:focus {
  * * -------------------------------------
  * */
 .box:hover {
-  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px #3273dc;
+  box-shadow: 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12), 0px 11px 15px -7px rgba(0, 0, 0, 0.2);
 }
 
 /**
@@ -17053,7 +17053,6 @@ html {
 }
 
 body {
-  /* font-size: */
   height: 100vh;
   min-height: 100vh;
   overflow: hidden;
@@ -17361,7 +17360,6 @@ pre code {
   background-color: transparent;
   border-color: transparent;
   color: #f0d5c0;
-  padding-left: 2em;
 }
 .menu .menu-list {
   line-height: 1.25;
@@ -17403,7 +17401,7 @@ pre code {
   transform: rotate(135deg);
 }
 .menu .menu-dropdown .menu-item:not(.has-dropdown) {
-  padding-left: calc($menu-item-padding + .75em);
+  padding-left: 3.2rem;
 }
 .menu.is-collapsed {
   flex: 0 0 90px !important;
@@ -17470,7 +17468,7 @@ pre code {
   transform: rotate(135deg);
 }
 .menu.is-collapsed.is-hoverable:hover .menu-dropdown .menu-item:not(.has-dropdown) {
-  padding-left: calc($menu-item-padding + .75em);
+  padding-left: 3.2rem;
 }
 .menu.is-dark {
   background-color: #2f3d4a;

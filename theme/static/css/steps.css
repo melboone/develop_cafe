@@ -1,0 +1,53 @@
+.step-text {
+  list-style: none;
+  padding-left: 0;
+  counter-reset: toc1;
+}
+
+.step-text > li {
+  position: relative;
+  padding-left: 60px;
+  margin-bottom: 48px;
+  font-weight: 300;
+  padding-top: 1em;
+}
+
+.step-text > li:before {
+  content: counter(toc1, decimal-leading-zero) ".";
+  counter-increment: toc1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ebebeb;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.step-text > li ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 30px;
+  counter-reset: toc2;
+}
+
+.step-text > li li {
+  position: relative;
+  padding-left: 60px;
+  margin-bottom: 48px;
+  font-weight: 300;
+}
+
+.step-text > li li:before {
+  content: counter(toc1) "-" counter(toc2) ".";
+  counter-increment: toc2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #555;
+  font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 22px;
+  width: 42px;
+  height: 42px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=steps.css.map */
