@@ -1,5 +1,5 @@
 Title: Smash Illustrations
-Slug: images/illustrations/smash-illustrations
+Slug: front-end/illustrations/smash-illustrations
 Date: 11 August 2020
 Show_date: No
 Modified: 11 August 2020

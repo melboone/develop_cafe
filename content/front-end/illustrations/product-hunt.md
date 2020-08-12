@@ -1,5 +1,5 @@
 Title: Product Hunt
-Slug: images/illustrations/product-hunt
+Slug: front-end/illustrations/product-hunt
 Date: 10 August 2020
 Show_date: No
 Modified: 10 August 2020

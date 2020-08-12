@@ -1,5 +1,5 @@
 Title: Avataaars
-Slug: images/illustrations/avataaars
+Slug: front-end/illustrations/avataaars
 Date: 9 August 2020
 Show_date: No
 Modified: 9 August 2020

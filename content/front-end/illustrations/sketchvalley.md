@@ -1,5 +1,5 @@
 Title: Sketchvalley
-Slug: images/illustrations/sketchvalley
+Slug: front-end/illustrations/sketchvalley
 Date: 11 August 2020
 Show_date: No
 Modified: 11 August 2020

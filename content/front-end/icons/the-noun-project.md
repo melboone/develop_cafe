@@ -1,5 +1,5 @@
 Title: The Noun Project
-Slug: images/icons/the-noun-project
+Slug: front-end/icons/the-noun-project
 Date: 12 August 2020
 Show_date: No
 Modified: 12 August 2020

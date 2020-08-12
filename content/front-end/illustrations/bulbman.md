@@ -1,5 +1,5 @@
 Title: Bulbman
-Slug: images/illustrations/bulbman
+Slug: front-end/illustrations/bulbman
 Date: 10 August 2020
 Show_date: No
 Modified: 10 August 2020

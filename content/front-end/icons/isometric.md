@@ -1,5 +1,5 @@
 Title: Isometric 
-Slug: images/icons/isometric
+Slug: front-end/icons/isometric
 Date: 12 August 2020
 Show_date: No
 Modified: 12 August 2020

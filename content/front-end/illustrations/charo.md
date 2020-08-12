@@ -1,5 +1,5 @@
 Title: Charco
-Slug: images/illustrations/charco
+Slug: front-end/illustrations/charco
 Date: 10 August 2020
 Show_date: No
 Modified: 10 August 2020

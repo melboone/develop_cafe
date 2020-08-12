@@ -1,5 +1,5 @@
 Title: Streamline Lab
-Slug: images/illustrations/streamline-lab
+Slug: front-end/illustrations/streamline-lab
 Date: 11 August 2020
 Show_date: No
 Modified: 11 August 2020

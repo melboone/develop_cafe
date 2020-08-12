@@ -1,5 +1,5 @@
 Title: Many Pixels
-Slug: images/illustrations/manypixels
+Slug: front-end/illustrations/manypixels
 Date: 11 August 2020
 Show_date: No
 Modified: 11 August 2020

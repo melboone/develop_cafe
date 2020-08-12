@@ -1,5 +1,5 @@
 Title: Ghost Builder
-Slug: images/illustrations/ghost-builder
+Slug: front-end/illustrations/ghost-builder
 Date: 10 August 2020
 Show_date: No
 Modified: 10 August 2020

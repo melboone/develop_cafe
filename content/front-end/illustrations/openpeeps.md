@@ -1,5 +1,5 @@
 Title: Open Peeps
-Slug: images/illustrations/openpeeps
+Slug: front-end/illustrations/openpeeps
 Date: 11 August 2020
 Show_date: No
 Modified: 11 August 2020

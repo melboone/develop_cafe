@@ -1,5 +1,5 @@
 Title: Icons8
-Slug: images/icons/icons8
+Slug: front-end/icons/icons8
 Date: 12 August 2020
 Show_date: No
 Modified: 12 August 2020

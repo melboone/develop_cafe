@@ -1,5 +1,5 @@
 Title: Lukaszadam
-Slug: images/illustrations/lukaszadam
+Slug: front-end/illustrations/lukaszadam
 Date: 11 August 2020
 Show_date: No
 Modified: 11 August 2020

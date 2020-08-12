@@ -1,5 +1,5 @@
 Title: evericons
-Slug: images/icons/evericons
+Slug: front-end/icons/evericons
 Date: 12 August 2020
 Show_date: No
 Modified: 12 August 2020

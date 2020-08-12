@@ -1,5 +1,5 @@
 Title: Blush
-Slug: images/illustrations/4blush
+Slug: front-end/illustrations/4blush
 Date: 10 August 2020
 Show_date: No
 Modified: 10 August 2020

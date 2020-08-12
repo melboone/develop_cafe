@@ -1,5 +1,5 @@
 Title: Iconmonstr
-Slug: images/icons/iconmonstr
+Slug: front-end/icons/iconmonstr
 Date: 12 August 2020
 Show_date: No
 Modified: 12 August 2020

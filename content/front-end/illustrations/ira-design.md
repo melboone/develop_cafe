@@ -1,5 +1,5 @@
 Title: Ira Design
-Slug: images/illustrations/ira-design
+Slug: front-end/illustrations/ira-design
 Date: 11 August 2020
 Show_date: No
 Modified: 11 August 2020

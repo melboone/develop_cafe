@@ -1,5 +1,5 @@
 Title: Feathericons 
-Slug: images/icons/feathericons
+Slug: front-end/icons/feathericons
 Date: 12 August 2020
 Show_date: No
 Modified: 12 August 2020

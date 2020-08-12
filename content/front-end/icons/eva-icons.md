@@ -1,5 +1,5 @@
 Title: Eva Icons
-Slug: images/icons/eva-icons
+Slug: front-end/icons/eva-icons
 Date: 12 August 2020
 Show_date: No
 Modified: 12 August 2020

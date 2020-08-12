@@ -1,5 +1,5 @@
 Title: Paper Illustrations
-Slug: images/illustrations/paper
+Slug: front-end/illustrations/paper
 Date: 11 August 2020
 Show_date: No
 Modified: 11 August 2020

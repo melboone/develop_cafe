@@ -1,5 +1,5 @@
 Title: illustrio
-Slug: images/icons/illustrio
+Slug: front-end/icons/illustrio
 Date: 12 August 2020
 Show_date: No
 Modified: 12 August 2020

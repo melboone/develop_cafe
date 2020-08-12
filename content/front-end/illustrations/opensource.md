@@ -1,5 +1,5 @@
 Title: Open Source
-Slug: images/illustrations/open-source
+Slug: front-end/illustrations/open-source
 Date: 10 August 2020
 Show_date: No
 Modified: 10 August 2020

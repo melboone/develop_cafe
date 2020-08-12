@@ -1,5 +1,5 @@
 Title: 404 Illustrations
-Slug: images/illustrations/404-illustrations
+Slug: front-end/illustrations/404-illustrations
 Date: 9 August 2020
 Show_date: No
 Modified: 9 August 2020

@@ -1,5 +1,5 @@
 Title: Font Awesome
-Slug: images/icons/fontawesome
+Slug: front-end/icons/fontawesome
 Date: 12 August 2020
 Show_date: No
 Modified: 12 August 2020

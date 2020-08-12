@@ -1,5 +1,5 @@
 Title: Drawkit
-Slug: images/illustrations/drawkit
+Slug: front-end/illustrations/drawkit
 Date: 10 August 2020
 Show_date: No
 Modified: 10 August 2020

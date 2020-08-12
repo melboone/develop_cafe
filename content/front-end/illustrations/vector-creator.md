@@ -1,5 +1,5 @@
 Title: Vector Creator
-Slug: images/illustrations/vector-creator
+Slug: front-end/illustrations/vector-creator
 Date: 10 August 2020
 Show_date: No
 Modified: 10 August 2020

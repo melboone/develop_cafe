@@ -1,5 +1,5 @@
 Title: Whoosh
-Slug: images/illustrations/whoosh
+Slug: front-end/illustrations/whoosh
 Date: 10 August 2020
 Show_date: No
 Modified: 10 August 2020

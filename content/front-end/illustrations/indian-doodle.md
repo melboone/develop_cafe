@@ -1,5 +1,5 @@
 Title: Indian Doodle
-Slug: images/illustrations/indian-doodle
+Slug: front-end/illustrations/indian-doodle
 Date: 10 August 2020
 Show_date: No
 Modified: 10 August 2020

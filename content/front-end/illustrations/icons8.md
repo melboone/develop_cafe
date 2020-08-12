@@ -1,5 +1,5 @@
 Title: Icons8
-Slug: images/illustrations/
+Slug: front-end/illustrations/
 Category: illustrations
 Date: 11 August 2020
 Show_date: No

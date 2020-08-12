@@ -1,5 +1,5 @@
 Title: Poke Illustrations
-Slug: images/illustrations/poke
+Slug: front-end/illustrations/poke
 Date: 10 August 2020
 Show_date: No
 Modified: 10 August 2020

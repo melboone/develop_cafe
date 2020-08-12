@@ -1,5 +1,5 @@
 Title: Iconbros
-Slug: images/icons/iconbros
+Slug: front-end/icons/iconbros
 Date: 12 August 2020
 Show_date: No
 Modified: 12 August 2020

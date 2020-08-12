@@ -1,5 +1,5 @@
 Title: Nucleo
-Slug: images/icons/nucleo
+Slug: front-end/icons/nucleo
 Date: 12 August 2020
 Show_date: No
 Modified: 12 August 2020

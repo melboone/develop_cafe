@@ -1,5 +1,5 @@
 Title: Ionicons
-Slug: images/icons/ionicons
+Slug: front-end/icons/ionicons
 Date: 12 August 2020
 Show_date: No
 Modified: 12 August 2020

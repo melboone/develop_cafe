@@ -1,5 +1,5 @@
 Title: Pixel True
-Slug: images/illustrations/pixeltrue
+Slug: front-end/illustrations/pixeltrue
 Date: 11 August 2020
 Show_date: No
 Modified: 11 August 2020

@@ -1,5 +1,5 @@
 Title: Absurd Design
-Slug: images/illustrations/absurd-design
+Slug: front-end/illustrations/absurd-design
 Date: 9 August 2020
 Show_date: No`
 Modified: 9 August 2020

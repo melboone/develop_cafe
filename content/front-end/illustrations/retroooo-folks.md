@@ -1,5 +1,5 @@
 Title: Retroooo Folks
-Slug: images/illustrations/retroooo-folks
+Slug: front-end/illustrations/retroooo-folks
 Date: 11 August 2020
 Show_date: No
 Modified: 11 August 2020

@@ -1,5 +1,5 @@
 Title: Stories
-Slug: images/illustrations/stories
+Slug: front-end/illustrations/stories
 Date: 11 August 2020
 Show_date: No
 Modified: 11 August 2020

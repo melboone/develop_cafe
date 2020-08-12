@@ -1,5 +1,5 @@
 Title: Streamline Icons
-Slug: images/icons/streamline-icons
+Slug: front-end/icons/streamline-icons
 Date: 12 August 2020
 Show_date: No
 Modified: 12 August 2020

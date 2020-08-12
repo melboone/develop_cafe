@@ -1,5 +1,5 @@
 Title: Dash
-Slug: images/illustrations/dash
+Slug: front-end/illustrations/dash
 Date: 10 August 2020
 Show_date: No
 Modified: 10 August 2020
