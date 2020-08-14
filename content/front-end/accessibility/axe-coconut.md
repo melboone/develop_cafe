@@ -10,4 +10,4 @@ Link: https://chrome.google.com/webstore/detail/axe-coconut-web-accessibi/iobddm
 Icon: https://lh3.googleusercontent.com/kHJFpLGrysCCOcqMyohvAMlEKlfzLYAUi6cGs470Q_vAIcZbjzLVEIfrGSKGkIYh4ukTkmlYCA=w128-h128-e365
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/accessibility/chrome-axe-coconut.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/accessibility/axe-coconut.md
