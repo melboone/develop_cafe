@@ -45,6 +45,7 @@ MENUITEMS = [
             ("Icons", "/category/icons.html"),
             ("Illustrations", "/category/illustrations.html"),
             ("Mockups", "/category/mockups.html"),
+            ("Typography", "/category/typography.html"),
         ],
     ),
     (
