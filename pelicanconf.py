@@ -40,10 +40,11 @@ MENUITEMS = [
     (
         "Front-End",
         [
-            ("Illustrations", "/category/illustrations.html"),
-            ("Icons", "/category/icons.html"),
-            ("Mockups", "/category/mockups.html"),
             ("Accessibility", "/category/accessibility.html"),
+            ("Colors", "/category/colors.html"),
+            ("Icons", "/category/icons.html"),
+            ("Illustrations", "/category/illustrations.html"),
+            ("Mockups", "/category/mockups.html"),
         ],
     ),
     (
