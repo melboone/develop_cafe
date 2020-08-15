@@ -26,6 +26,12 @@ DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [
     # ("Home", "/"),
     (
+        "Collaboration",
+        [
+            ("Sharing", "/category/sharing.html"),
+        ],
+    ),
+    (
         "Digital Samples",
         [
             ("Archives", "/category/archives.html"),

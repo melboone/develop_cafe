@@ -21,13 +21,13 @@ Every page, at a minimum, must have the following:
     Date: 2010-12-03 10:20
     Slug: category/my-super-title
 
-    Content
-
 As you can see the `Slug:` contains the category before the actual slug. This helps 
 better categorizing the URLs and avoid confusion.
 
 For general pages, such as this one or [`About`](pages/about.html), category is 
 always `pages/`.
+
+A good starting point is the `template_` file created in each category.
 
 ## Optional Fields
 
@@ -50,10 +50,12 @@ always `pages/`.
 
 ## Creating a new page
 
-To create a new page, create a `.md` file in the appropriate folder (or new one), add 
-the above elements. It is a good idea to add the file to 
+Create a `.md` file in the appropriate folder (or new one), add the above elements. 
+It is a good idea to add the file to 
 the [configuration](https://github.com/melboone/develop_cafe/blob/master/pelicanconf.py) 
 file as well, in the `MENUITEMS`.
+
+A good starting point is the `template_` file created in each category.
 
 ## Private comments
 
