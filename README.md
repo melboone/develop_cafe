@@ -33,3 +33,9 @@ Clone and run the project on your computer.
         |            (  /
         \             y'
          `-.._____..-'
+         
+         
+## To Do
+
+* Add shortcut references or links to common software
+* Add digital samples
