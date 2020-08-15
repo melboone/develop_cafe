@@ -1,0 +1,13 @@
+Title: HTML DOM
+Slug: front-end/js/htmldom
+Date: 15 August 2020
+Show_date: No
+Modified: 15 August 2020
+Show_modified: No
+Category: JS
+Summary: how to manage HTML DOM wth vanilla JavaScript only?
+Link: https://htmldom.dev/
+Icon:
+Attribution: No
+Commercial: Yes
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/js/htmldom.md
