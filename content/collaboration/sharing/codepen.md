@@ -10,4 +10,4 @@ Link: https://codepen.io/
 Icon: https://ik.imagekit.io/developcafe/codepen_XjHD6OfktV.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/sharing/codepen.md
+Github_edit_link: https://github.com/melboone/develo    p_cafe/edit/master/content/front-end/sharing/codepen.md
