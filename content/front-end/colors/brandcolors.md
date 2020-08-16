@@ -7,7 +7,7 @@ Show_modified: No
 Category: Colors
 Summary: The biggest collection of official brand color codes around
 Link: https://brandcolors.net/
-Icon: https://brandcolors.net/assets/img/logo.png
+Icon: https://ik.imagekit.io/developcafe/brandcolors_4GYu8Hbcc.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/colors/brandcolors.md

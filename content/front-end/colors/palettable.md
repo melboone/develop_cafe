@@ -7,7 +7,7 @@ Show_modified: No
 Category: Colors
 Summary: Generate beautiful color palettes.
 Link:https://www.palettable.io/
-Icon:
+Icon: https://ik.imagekit.io/developcafe/palletable_aYuCfppmC.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/colors/palettable.md

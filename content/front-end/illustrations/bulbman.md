@@ -8,7 +8,7 @@ Tags: art, artistic
 Category: Illustrations
 Summary: Free Artistic Illustrations for Designers. Explore artistic illustrations and vector art.
 Link: https://bulbman.art
-Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/bulbman_9Y5VmZPkf.png
+Icon: https://ik.imagekit.io/developcafe/bulbman_9Y5VmZPkf.png
 Attribution: Yes
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/bulbman.md

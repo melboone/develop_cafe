@@ -39,3 +39,5 @@ Clone and run the project on your computer.
 
 * Add shortcut references or links to common software
 * Add digital samples
+* Add search functionality
+* Add comments? (don't really see the point)

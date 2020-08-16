@@ -7,7 +7,7 @@ Show_modified: No
 Category: Accessibility
 Summary: Helps designers and developers test entire color systems for contrast and accessibility.
 Link: https://hexnaw.com/
-Icon:
+Icon: https://ik.imagekit.io/developcafe/hexnaw_t6knUYBge.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/accessibility/hexnaw.md

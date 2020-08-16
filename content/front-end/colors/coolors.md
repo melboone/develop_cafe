@@ -7,7 +7,7 @@ Show_modified: No
 Category: Colors
 Summary:The super fast color schemes generator!
 Link: https://coolors.co/
-Icon: https://coolors.co/assets/img/logo.svg
+Icon: https://ik.imagekit.io/developcafe/coolors_T04rXF-WO.svg
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/colors/coolors.md

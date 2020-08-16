@@ -8,7 +8,7 @@ Tags: 404, not-found
 Category: Illustrations
 Summary:  Royalty free illustrations for 404 error pages
 Link: https://error404.fun
-Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/404_CiRF3retx.png
+Icon: https://ik.imagekit.io/developcafe/404_CiRF3retx.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/404_illustrations.md

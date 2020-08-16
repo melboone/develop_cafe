@@ -7,7 +7,7 @@ Show_modified: No
 Category: sharing
 Summary: Share your screenshots and images online
 Link: https://pasteboard.co
-Icon: https://pasteboard.co/images/splash-image-shine.png
+Icon: https://ik.imagekit.io/developcafe/pasteboard_paXJfiqcM.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/sharing/pasteboard.md

@@ -8,7 +8,7 @@ Tags: mix, custom images
 Category: Illustrations
 Summary: Create, mix, and customize illustrations made by artists around the world.
 Link: https://blush.design/
-Icon: https://ik.imagekit.io/developcafe/Images/Illustrations/blush_bcC3rT-PC.png
+Icon: https://ik.imagekit.io/developcafe/blush_bcC3rT-PC.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/blush.md

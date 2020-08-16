@@ -23,25 +23,35 @@
     <div class="columns is-multiline">
         {# Start creation of new box for every article #}
         {% for title in articles %}
+
             {# Begin Box Icon. Icon is linked to the internal article or external link #}
             <div class="column is-half">
                 <div class="box">
                     <article class="media">
 
-                        {# Check if there is an icon. If it is, display it #}
-                        {% if title.icon %}
-                            {# Check if the link is internal or not and if it is, link it to the internal article #}
-                            <div class="media-left">
-                                <figure>
-                                    <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
-                                        <img width="85" src="{{ title.icon }}" title="{{ title.title }}" alt="Icon {{ title.title }}">
-                                    </a>
-                                </figure>
-                            </div>
-                        {% endif %}
+                        {# Check if the link is internal or not and if it is, link it to the internal article #}
+                        <div class="media-left has-text-centered" style="width: 85px">
+                            <figure>
+                                <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow noopener" target="_blank"{% endif %}>
+
+                                    {# Logic for displaying images #}
+
+                                    <img src=
+                                                 {# Nothing set? Display 'No Image Available' #}
+                                                 {% if not title.icon %}
+                                                     "https://ik.imagekit.io/developcafe/no-image_V16k9hKS8.png"
+                                                     {# Display image from imagekit (default for develop.cafe #}
+                                                 {% else %}
+                                                     "{{ title.icon }}?tr=r-max,h-85,bg-FFFFFF"
+                                                 {% endif %}
+                                                     title="{{ title.title }}" alt="{{ title.title }} Image">
+                                </a>
+                            </figure>
+                        </div>
                         {# End Box Icon #}
 
                         {# Begin title of the box #}
+
                         {# Contains Title and Author #}
                         <div class="media-content">
                             <div class="content">
@@ -56,7 +66,7 @@
 
                                     {# Check if the link is internal or not and if it is, link it to the internal article #}
                                     {% if title.link %}
-                                        <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
+                                        <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow noopener" target="_blank"{% endif %}>
                                             <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/external.png" width="14" alt="external link">
                                         </a>
                                     {% endif %}
@@ -64,7 +74,7 @@
 
                                 <p class="title is-4">
                                     {# Box Title with Link to internal or external#}
-                                    <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
+                                    <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow noopener" target="_blank"{% endif %}>
                                         {{ title.title }}
                                     </a>
                                 </p>
@@ -83,7 +93,7 @@
                                 {# Begin content Summary. #}
                                 {# Check if the link is internal or not and create a link the summary #}
                                 <p>
-                                    <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow" target="_blank"{% endif %}>
+                                    <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow noopener" target="_blank"{% endif %}>
                                         {{ title.summary }}
                                     </a>
                                     {# End content summary #}

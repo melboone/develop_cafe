@@ -7,7 +7,7 @@ Show_modified: No
 Category: Accessibility
 Summary: Alt Text Tester Used to Show Alternate Text of Image on Hover. We Can also Copy The Alternate Text By Double Click on Image.
 Link: https://chrome.google.com/webstore/detail/alt-text-tester/koldhcllpbdfcdpfpbldbicbgddglodk?hl=en
-Icon: https://lh3.googleusercontent.com/xIZQrvL_yEzjiAqIfVHv_gzWkgMpGq8sqEV6aD99DFqyT2oM8xpA3Fcib3nbiXK0zJCAOsSt=w128-h128-e365
+Icon: https://ik.imagekit.io/developcafe/chromealt_uuibijrQc.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/accessibility/chrome-alt-text-tester.md

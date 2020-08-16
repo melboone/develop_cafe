@@ -7,7 +7,7 @@ Show_modified: No
 Category: Accessibility
 Summary: Color Oracle is a free color blindness simulator for Windows, Mac and Linux. It takes the guesswork out of designing for color blindness by showing you in real time what people with common color vision impairments will see.
 Link: https://colororacle.org/
-Icon: https://colororacle.org/rw_common/images/icon48x48.png
+Icon: https://ik.imagekit.io/developcafe/colororacle_dFxrAnpMf.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/accessibility/color-oracle.md

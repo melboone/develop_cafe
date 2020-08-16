@@ -7,7 +7,7 @@ Show_modified: No
 Category: sharing
 Summary: Sharing code is a good thing, and it should be _really_ easy to do it.
 Link: https://hastebin.com
-Icon:  https://hastebin.com/logo.png
+Icon: https://ik.imagekit.io/developcafe/hastebin_DOC_UJU3P.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/sharing/hastebin.md

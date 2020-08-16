@@ -7,7 +7,7 @@ Show_modified: No
 Category: Accessibility
 Summary: Colorblind Web Page Filter
 Link: https://www.toptal.com/designers/colorfilter
-Icon: https://www.toptal.com/designers/colorfilter/static/colorfilter_button.png
+Icon: https://ik.imagekit.io/developcafe/toptal_L1tM23F84.webp
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/accessibility/toptal.md

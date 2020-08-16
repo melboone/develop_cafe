@@ -7,7 +7,7 @@ Show_modified: No
 Category: sharing
 Summary: A social development environment for front-end designers and developers.
 Link: https://codepen.io/
-Icon: 
+Icon: https://ik.imagekit.io/developcafe/codepen_XjHD6OfktV.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/sharing/codepen.md

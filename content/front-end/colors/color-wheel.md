@@ -7,7 +7,7 @@ Show_modified: No
 Category: Colors
 Summary:  The AI Color Wheel automatically colorizes logos, illustrations, wireframes and other graphical art.
 Link: https://brandmark.io/color-wheel/app/
-Icon: https://brandmark.io/color-wheel/img/logo.svg
+Icon: https://ik.imagekit.io/developcafe/colorwheel_1aalckgX-.svg
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/colors/color-wheel.md

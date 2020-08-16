@@ -7,7 +7,7 @@ Show_modified: No
 Category: Colors
 Summary:   Website to generate color palettes in HSLuv color space 
 Link: https://colorcolor.in/
-Icon:
+Icon: https://ik.imagekit.io/developcafe/colorcolor_itU9FFUni.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/colors/colorcolor.md

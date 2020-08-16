@@ -7,7 +7,7 @@ Show_modified: No
 Category: Colors
 Summary: Color Hunt is a free and open platform for color inspiration with thousands of trendy hand-picked color palettes
 Link: https://colorhunt.co/
-Icon: https://colorhunt.co/img/color-hunt-palettes-logo.png
+Icon: https://ik.imagekit.io/developcafe/color-hunt_Mxh7FgC6y.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/colors/colorhunt.md
