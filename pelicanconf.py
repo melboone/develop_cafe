@@ -60,7 +60,8 @@ MENUITEMS = [
     (
         "Hosting",
         [
-            ("Image-CDN", "/category/image-cdn.html"),
+            ("AI Cloud", "/category/ai-cloud.html"),
+            ("Image CDN", "/category/image-cdn.html"),
         ],
     ),
 ]
