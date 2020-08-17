@@ -5,7 +5,7 @@ Show_date: No
 Modified: 13 August 2020
 Show_modified: No
 Category: Accessibility
-Summary: The suite of integrated accessibility compliancetools for software teams. 
+Summary: The suite of integrated accessibility compliance tools for software teams. Contrast checker, colorblind simulation, color suggestions and seamless export.
 Link: https://www.getstark.co/index.html
 Icon: https://ik.imagekit.io/developcafe/stark_WiYzSQwhM.png
 Attribution: No

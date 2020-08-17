@@ -5,7 +5,7 @@ Show_date: No
 Modified: 13 August 2020
 Show_modified: No
 Category: Accessibility
-Summary: Validate your Web Site with A11ygator
+Summary: Validate your Web Site with A11ygator. Just input your website, select your standard, wait time.
 Link: https://a11ygator.chialab.io
 Icon: https://ik.imagekit.io/developcafe/a11gator_l3XhSnLANO.png
 Attribution: No
