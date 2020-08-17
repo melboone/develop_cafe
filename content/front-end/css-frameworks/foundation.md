@@ -5,7 +5,7 @@ Show_date: No
 Modified: 17 August 2020
 Show_modified: No
 Category: css-frameworks
-Summary: The most advanced responsive front-end framework in the world.
+Summary: A Framework for any device, medium, and accessibility. Foundation is a family of responsive front-end frameworks that make it easy to design beautiful responsive websites, apps and emails that look amazing on any device. Foundation is semantic, readable, flexible, and completely customizable.
 Link: https://get.foundation/
 Icon: https://ik.imagekit.io/developcafe/foundation_gLeAd10tH.png
 Attribution: No

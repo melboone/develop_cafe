@@ -5,7 +5,7 @@ Show_date: No
 Modified: 15 August 2020
 Show_modified: No
 Category: css-frameworks
-Summary: Feature rich CSS framework for the new decade 
+Summary: Feature rich CSS framework for the new decade. Shorthand is a free and open source css framework, that allows you to make unique and modern design without writing any css 
 Link: https://shorthandcss.com
 Icon: https://ik.imagekit.io/developcafe/shorthand_sHcq8d3QD.png
 Attribution: No
