@@ -7,7 +7,7 @@ Show_modified: No
 Category: Icons
 Summary: Favicon Generator The only favicon generator you need for your next project.
 Link: https://favicon.io/
-Icon: https://favicon.io/images/navbar-logo-374d3ae9.png
+Icon: https://ik.imagekit.io/developcafe/favicon_WZM2udqe-.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/
