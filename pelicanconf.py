@@ -43,7 +43,7 @@ MENUITEMS = [
             ("Accessibility", "/category/accessibility.html"),
             ("Colors", "/category/colors.html"),
             ("CSS", "/category/css.html"),
-            ("CSS Framework", "/category/css-frameworks.html"),
+            ("CSS Frameworks", "/category/css-frameworks.html"),
             ("Create Convert Design", "/category/create-convert-design.html"),
             ("Icons", "/category/icons.html"),
             ("Illustrations", "/category/illustrations.html"),
@@ -68,7 +68,7 @@ MENUITEMS = [
     ),
 ]
 
-# Feed generation is usually not desired when developing
+# Feed generation is usually not desired when developingz
 #  Feeds
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
@@ -132,7 +132,21 @@ DATE_FORMATS = {
     "en_US": "%a, %d %b %Y",  # United States of America
     "jp": "%Y-%m-%d(%a)",  # Japan
 }
-# #
-# # # Extra Plugins
-# PLUGIN_PATHS = ["plugins", "/plugins"]
+
+# Extra Plugins
 # PLUGINS = ["category_meta"]
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = ['sitemap',]
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
