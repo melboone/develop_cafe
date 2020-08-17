@@ -8,7 +8,7 @@ Tags: images, 404
 Category: illustrations
 Summary: Vivid illustrations will add color to your story. Great illustrations for website and mobile applications.
 Link: https://www.ls.graphics/illustrations/whoosh
-Icon: 
+Icon: https://ik.imagekit.io/developcafe/Whoosh_lazFWdLdO.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/whoosh.md

@@ -7,7 +7,7 @@ Show_modified: No
 Category: illustrations
 Summary:  Build your own amazing illustrationsUsing our awesome gradients and hand drawn sketch components.
 Link: https://iradesign.io/
-Icon: https://iradesign.io/assets/img/thumb_characters.jpg
+Icon: https://ik.imagekit.io/developcafe/iradesign_Cj5lsDDLz.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/ira-design.md

@@ -5,7 +5,7 @@ Show_date: No
 Modified: 11 August 2020
 Show_modified: No
 Category: illustrations
-Summary: Incredible set of paper illustrations
+Summary: Incredible set of paper illustrations absolutely free for both personal and commercial use. Incredible set of paper illustrations absolutely free for both personal and commercial use 
 Link: https://iconscout.com/paper-illustrations
 Icon: https://ik.imagekit.io/developcafe/paper_itMjD-ih0.png
 Attribution: No

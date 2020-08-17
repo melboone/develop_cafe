@@ -2,7 +2,7 @@ Title: Avataaars
 Slug: front-end/illustrations/avataaars
 Date: 9 August 2020
 Show_date: No
-Modified: 9 August 2020
+Modified: 14 August 2020
 Show_modified: No
 Tags: avatars, custom images, generate
 Category: Illustrations

@@ -94,7 +94,7 @@
                                 {# Check if the link is internal or not and create a link the summary #}
                                 <p>
                                     <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow noopener" target="_blank"{% endif %}>
-                                        {{ title.summary }}
+                                        {{ title.summary|truncate(120,true) }}
                                     </a>
                                     {# End content summary #}
                                 </p>
