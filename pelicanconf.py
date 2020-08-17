@@ -35,12 +35,6 @@ MENUITEMS = [
         "Digital Samples",
         [
             ("Archives", "/category/archives.html"),
-            # ("Audio", "/category/audio.html"),
-            # ("Coding", "/category/zip.html"),
-            # ("Databases", "/category/zip.html"),
-            # ("Documents", "/category/zip.html"),
-            # ("Images", "/category/zip.html"),
-            # ("Spreadsheets", "/category/zip.html"),
         ],
     ),
     (
@@ -63,6 +57,13 @@ MENUITEMS = [
         [
             ("AI Cloud", "/category/ai-cloud.html"),
             ("Image CDN", "/category/image-cdn.html"),
+        ],
+    ),
+    (
+        "Shortcuts",
+        [
+            ("Development", "/category/development.html"),
+            ("Design", "/category/design.html"),
         ],
     ),
 ]
