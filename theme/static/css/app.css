@@ -17142,10 +17142,25 @@ h2 {
   color: #094275;
 }
 
+kbd {
+  display: inline-block;
+  font-size: 0.875em;
+  text-align: center;
+  padding: 0.5em 0.75em;
+  line-height: 1.5;
+  min-width: 2.5em;
+  vertical-align: middle;
+  margin-top: 0.125rem;
+  margin-bottom: 0.125rem !important;
+  border-radius: 0.25rem;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.06);
+  background-color: #eee;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
-  border-spacing: 0;
+  border-spacing: 1;
 }
 table td {
   border: 1px solid #dbdbdb;
@@ -17156,6 +17171,12 @@ table th {
   border: 1px solid #dbdbdb;
   padding: 0.5em 0.75em;
   vertical-align: top;
+}
+table.keyboard-shortcuts th {
+  color: #094275 !important;
+  font-size: 1.25rem;
+  padding: 2rem 0 1rem 0;
+  font-weight: inherit;
 }
 
 .file-tree {
