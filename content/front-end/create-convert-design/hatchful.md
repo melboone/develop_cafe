@@ -5,7 +5,7 @@ Show_date: No
 Modified: 17 August 2020
 Show_modified: No
 Category: create-convert-design
-Summary: Create stunning logos in seconds
+Summary: Create stunning logos in seconds. Customize your logo from hundreds of templates, icon, and color combinations in our design studio.
 Link: https://hatchful.shopify.com/
 Icon: https://ik.imagekit.io/developcafe/hatchful_govgiIxTl.png
 Attribution: No

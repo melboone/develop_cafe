@@ -5,7 +5,7 @@ Show_date: no
 Modified: 15 august 2020
 Show_modified: no
 Category: create-convert-design
-Summary: 498 Free Handpicked UI Kits for your real life projects
+Summary: 498 Free Handpicked UI Kits for your real life projects.  Download free design resources for Sketch Adobe XD Figma InVision Studio Webflow Adobe Photoshop Adobe Illustrator.
 Link: https://www.uistore.design/
 Icon: https://ik.imagekit.io/developcafe/uistore_igb8Agh5b.png
 Attribution: no
