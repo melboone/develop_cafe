@@ -7,7 +7,7 @@ Show_modified: No
 Category: mockups
 Summary: Stunning mockups for less than the price of a coffee.
 Link: https://cleanmock.com
-Icon: https://cleanmock.com/static/images/logo.svg
+Icon: https://ik.imagekit.io/developcafe/cleanmock_74BFuSPkQ.png
 Attribution: No
 Commercial: No
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/mockups/cleanmock.md
