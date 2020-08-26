@@ -5,7 +5,7 @@ Show_date: No
 Modified: 15 August 2020
 Show_modified: No
 Category: Useful
-Summary: A resource for International Paper Sizes, Dimensions & Formats
+Summary: A resource for International Paper Sizes, Dimensions & Formats. A simple, free resource for finding the international standards for paper sizes.
 Link: https://papersizes.io/
 Icon: https://ik.imagekit.io/developcafe/papersize_n-SWxHgzk.png
 Attribution: No

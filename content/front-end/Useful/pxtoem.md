@@ -5,7 +5,7 @@ Show_date: No
 Modified: 15 August 2020
 Show_modified: No
 Category: Useful
-Summary: Convert PX to EM
+Summary: Convert PX to EM, conversion made simple. Pixels and points are static measurements, but commonly used in different mediums. Pixels are used on screens because screens are measured in pixels. Although points can be used on screen, they are the standard in printing because they are a factor of DPI.
 Link: http://pxtoem.com
 Icon: https://ik.imagekit.io/developcafe/imagekit_d8axSYUU-.png
 Attribution: No

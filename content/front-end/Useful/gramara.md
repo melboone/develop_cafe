@@ -5,7 +5,7 @@ Show_date: No
 Modified: 15 August 2020
 Show_modified: No
 Category: Useful
-Summary: The AI-powered Grammar Checker
+Summary: The AI-powered Grammar Checker. Upgrade your grammar, diction and style. Write fluent English instantly
 Link: https://gramara.com/
 Icon: https://ik.imagekit.io/developcafe/gramara_32p5YJZgl.png
 Attribution: No

@@ -5,7 +5,7 @@ Show_date: No
 Modified: 17 August 2020
 Show_modified: Yes
 Category: Useful
-Summary: Generate random blobs
+Summary: Generate random blobs. Generate beautiful blob shapes for web and flutter apps. MIT License.
 Link: https://blobs.app/
 Icon: https://ik.imagekit.io/developcafe/blobs_23ybuOOB4.png
 Attribution: No
