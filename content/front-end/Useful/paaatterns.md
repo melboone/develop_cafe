@@ -7,7 +7,7 @@ Show_modified: No
 Category: Useful
 Summary: Free collection of beautiful patterns for all vector formats
 Link: https://products.ls.graphics/paaatterns/
-Icon: https://products.ls.graphics/paaatterns/images/Small-Logo.svg
+Icon: https://ik.imagekit.io/developcafe/paaatterns_bw0jZgH-V.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/useful/paaatterns.md
