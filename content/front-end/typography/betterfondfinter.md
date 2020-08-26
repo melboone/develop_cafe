@@ -7,7 +7,7 @@ Show_modified: No
 Category: Typography
 Summary: Find great Google Fonts
 Link: https://jmattthew.github.io/better-font-finder/better-font-finder.html
-Icon:
+Icon: https://ik.imagekit.io/developcafe/better-font-finder_4a0sXr4mG.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/typography/findgooglefonts.md
