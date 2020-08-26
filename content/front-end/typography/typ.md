@@ -7,7 +7,7 @@ Show_modified: No
 Category: Typography
 Summary: fonts that go together 
 Link: http://typ.io/
-Icon: http://typ.io/processed-svg/to.svg
+Icon: https://ik.imagekit.io/developcafe/typ_uNLPIQ3Et.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/typography/typ.md
