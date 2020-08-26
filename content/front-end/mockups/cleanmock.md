@@ -5,7 +5,7 @@ Show_date: No
 Modified: 12 August 2020
 Show_modified: No
 Category: mockups
-Summary: Stunning mockups for less than the price of a coffee.
+Summary: Stunning mockups for less than the price of a coffee. Create stunning mockups using latest device frames like iPhone X & custom backgrounds that make your mobile or website design standout, right from your browser quickly & for free.
 Link: https://cleanmock.com
 Icon: https://ik.imagekit.io/developcafe/cleanmock_74BFuSPkQ.png
 Attribution: No

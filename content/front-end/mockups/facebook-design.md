@@ -5,7 +5,7 @@ Show_date: No
 Modified: 12 August 2020
 Show_modified: No
 Category: mockups
-Summary: Designing for the global diversity of human needs
+Summary: Designing for the global diversity of human needs. We're bringing people closer together with the Facebook app, Messenger, Instagram, WhatsApp, Oculus, Workplace, Portal and Novi.
 Link: https://facebook.design/toolsandresources/
 Icon: https://ik.imagekit.io/developcafe/facebook_Qy8R4PBK2.png
 Attribution: No
