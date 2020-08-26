@@ -8,7 +8,22 @@ Icon: https://ik.imagekit.io/developcafe/excel-svgrepo-com_ZnvIbjj1a.svg
 category: spreadsheets
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/samples/spreadsheets/dif.md
 
+DIF (Data Interchange Format) is a text-based file format used for exporting and importing spreadsheets.
 
+DIF files store data using the ASCII character encoding scheme. This mitigates cross-platform 
+issues but at the same time creates certain limitations making the DIF format a more basic one
+ when compared to other spreadsheet formats.
+
+DIF files can only handle a single spreadsheet per workbook. DIF spreadsheets are divided 
+into two sections, data and header. Header parts start a text identifier written in capital
+ letters and data parts start with a number pair indicating the row and column. Cell content 
+ is written between quotes.
+
+This are not samples for:
+
+* Raytheon Raster Bitmap
+* VisiCalc spreadsheet
+* Wright Design's Design Image Format
 
 | File name   | File Size   | Download                            |  Rows   | Columns | File Description                 |
 |-------------|-------------|-------------------------------------|---------|---------|----------------------------------|
