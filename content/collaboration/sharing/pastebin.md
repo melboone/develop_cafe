@@ -10,4 +10,4 @@ Link: https://pastebin.com/
 Icon: https://ik.imagekit.io/developcafe/pastebin_uW_c5Luni_.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/sharing/
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/collaboration/sharing/

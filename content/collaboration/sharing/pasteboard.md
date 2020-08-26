@@ -10,4 +10,4 @@ Link: https://pasteboard.co
 Icon: https://ik.imagekit.io/developcafe/pasteboard_paXJfiqcM.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/sharing/pasteboard.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/collaboration/sharing/pasteboard.md
