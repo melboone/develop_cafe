@@ -34,7 +34,9 @@ MENUITEMS = [
     (
         "Digital Samples",
         [
-            ("Archives", "/category/archives.html"),
+            # ("Archives", "/category/archives.html"),
+            # ("Audio", "/category/audio.html"),
+            ("Spreadsheets", "/category/spreadsheets.html"),
         ],
     ),
     (
