@@ -5,9 +5,9 @@ Show_date: No
 Modified: 12 August 2020
 Show_modified: No
 Category: icons
-Summary: Cute Isometric objects for your design
+Summary: Cute Isometric objects for your design. You can request a new object, it's free but we can’t guarantee delivery time.
 Link: https://www.isometriclove.com/
-Icon: img src="https://storage.googleapis.com/isometriclove.appspot.com/resized/thumb_company.png
+Icon: https://ik.imagekit.io/developcafe/isometric_-ioY0UqZT.png
 Attribution: Yes
 Commercial: No
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/isometric.md

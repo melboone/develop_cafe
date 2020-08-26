@@ -5,9 +5,9 @@ Show_date: No
 Modified: 12 August 2020
 Show_modified: No
 Category: icons
-Summary: Free, monstrously big and continuously growing source of simple icons run by one creator
+Summary: Free, monstrously big and continuously growing source of simple icons run by one creator.
 Link: https://iconmonstr.com
-Icon: 
+Icon: https://ik.imagekit.io/developcafe/iconmonstr_NmRFUJyBl.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/iconmonstr.md
