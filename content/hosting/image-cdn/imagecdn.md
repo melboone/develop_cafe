@@ -5,7 +5,7 @@ Show_date: No
 Modified: 16 August 2020
 Show_modified: Yes
 Category: image-cdn
-Summary: A free image resizing service and CDN.
+Summary: A free image resizing service and CDN. Anyone is free to use this service. We only ask that you contribute to the overall service if you are able.
 Link: https://imagecdn.app/getting-started
 Icon: https://ik.imagekit.io/developcafe/imagecdn_ZMloj8wdf.jpg
 Attribution: No
