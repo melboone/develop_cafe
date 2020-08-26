@@ -7,7 +7,7 @@ Show_modified: Yes
 Category: Useful
 Summary: Generate random blobs
 Link: https://blobs.app/
-Icon: https://blobs.app/eb975f6cd54b093cd34c15ad87b8165b.png
+Icon: https://ik.imagekit.io/developcafe/blobs_23ybuOOB4.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/useful/blobs.md

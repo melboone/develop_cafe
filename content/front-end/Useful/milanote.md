@@ -7,7 +7,7 @@ Show_modified: No
 Category: Useful
 Summary: Create a hub for your design project and organize every part of it in one flexible place.
 Link: https://milanote.com/inspiration/ux-designers
-Icon: 
+Icon: https://ik.imagekit.io/developcafe/milanote_suO2gqozK.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/useful/milanote.md

@@ -10,8 +10,8 @@ from __future__ import unicode_literals
 
 # Website details
 SITENAME = "Develop Cafe"
-SITEURL = "https://develop.cafe"
-# SITEURL = "http://127.0.0.1:8000"
+# SITEURL = "https://develop.cafe"
+SITEURL = "http://127.0.0.1:8000"
 PATH = "content"
 TIMEZONE = "UTC"
 

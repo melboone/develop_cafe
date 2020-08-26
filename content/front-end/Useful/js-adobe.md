@@ -7,7 +7,7 @@ Show_modified: No
 Category: Useful
 Summary: Scripts for Adobe Illustrator (JavaScript)
 Link: http://shspage.com/aijs/en/
-Icon:
+Icon: https://ik.imagekit.io/developcafe/shpage_-O899RkM9.png
 Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/useful/js-adobe.md
