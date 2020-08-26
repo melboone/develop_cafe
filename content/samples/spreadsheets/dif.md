@@ -27,7 +27,7 @@ This are not samples for:
 
 | File name   | File Size   | Download                            |  Rows   | Columns | File Description                 |
 |-------------|-------------|-------------------------------------|---------|---------|----------------------------------|
-| DIF-file-1  | 2.0 KB      | [Download](/samples/DIF_file_1.dif) | 11   |   12       | Total text rows: 302.            |
-| DIF-file-2  | 17.5 KB     | [Download](/samples/DIF_file_2.dif) | 101  |   12       |                                  |
-| DIF-file-3  | 405.7 KB    | [Download](/samples/DIF_file_3.dif) | 1001 |   12       | Total text rows: 79,454          |
+| DIF-file-1  | 2.0 KB      | [Download](/samples/DIF-file-1.dif) | 11      |   12    | Total text rows: 302.            |
+| DIF-file-2  | 17.5 KB     | [Download](/samples/DIF-file-2.dif) | 101     |   12    |                                  |
+| DIF-file-3  | 405.7 KB    | [Download](/samples/DIF-file-3.dif) | 1001    |   12    | Total text rows: 79,454          |
 
