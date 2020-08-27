@@ -2,7 +2,7 @@ Title: GIF samples
 Slug: samples/others/gif
 Date: 27 August 2020
 Modified: 27 August 2020
-Show_modified: Yes
+Show_modified: No
 Summary: gif stands for Graphics Interchange Format and supports up to 8 bits per pixel for each image, allowing a single image to reference its own palette of up to 256 different colors chosen from the 24-bit RGB color space.
 Icon: https://ik.imagekit.io/developcafe/gif-svgrepo-com_Hhf1DXEZH.svg
 category: others

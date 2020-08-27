@@ -1,4 +1,4 @@
-Title: dif
+Title: DIF samples
 Slug: samples/spreadsheets/dif-samples
 Date: 27 August 2020
 Modified: 27 August 2020

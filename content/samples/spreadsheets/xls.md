@@ -1,4 +1,4 @@
-Title: XLS
+Title: XLS samples
 Slug: samples/spreadsheets/xls
 Date: 27 August 2020
 Modified: 27 August 2020

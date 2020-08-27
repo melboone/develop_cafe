@@ -1,4 +1,4 @@
-Title: CSV
+Title: CSV samples
 Slug: samples/spreadsheets/zip-samples
 Date: 27 August 2020
 Modified: 27 August 2020
