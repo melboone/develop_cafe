@@ -35,9 +35,4 @@ Clone and run the project on your computer.
          `-.._____..-'
          
          
-## To Do
-
-* Add shortcut references or links to common software
-* Add digital samples
-* Add search functionality
 * Add comments? (don't really see the point)
