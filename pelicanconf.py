@@ -23,6 +23,7 @@ ARTICLE_TRANSLATION_ID = "slug"
 DISPLAY_CATEGORIES_ON_MENU = False
 # Due to the static nature of this job, unfortunately this is a manual job
 # Every link needs to the entry added below. Format: Black
+
 MENUITEMS = [
     # ("Home", "/"),
     (
@@ -35,6 +36,7 @@ MENUITEMS = [
         "Front-End",
         [
             ("Accessibility", "/category/accessibility.html"),
+            ("Animation", "/category/animation.html"),
             ("Colors", "/category/colors.html"),
             ("CSS", "/category/css.html"),
             ("CSS Frameworks", "/category/css-frameworks.html"),
@@ -72,7 +74,6 @@ MENUITEMS = [
         ],
     ),
 ]
-
 # Feed generation is usually not desired when developingz
 #  Feeds
 TRANSLATION_FEED_ATOM = None
