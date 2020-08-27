@@ -41,9 +41,11 @@ MENUITEMS = [
             ("Create Convert Design", "/category/create-convert-design.html"),
             ("Icons", "/category/icons.html"),
             ("Illustrations", "/category/illustrations.html"),
+            ("Images", "/category/images.html"),
             ("Mockups", "/category/mockups.html"),
             ("Typography", "/category/typography.html"),
             ("Useful", "/category/useful.html"),
+            ("Video", "/category/video.html"),
         ],
     ),
     (
