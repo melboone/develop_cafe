@@ -59,6 +59,7 @@ MENUITEMS = [
             # ("Archives", "/category/archives.html"),
             # ("Audio", "/category/audio.html"),
             ("Spreadsheets", "/category/spreadsheets.html"),
+            ("Others", "/category/others.html"),
         ],
     ),
     (
