@@ -2,7 +2,7 @@ Title: CSV
 Slug: samples/spreadsheets/zip-samples
 Date: 27 August 2020
 Modified: 27 August 2020
-Show_modified: Yes
+Show_modified: No
 Summary: Delimited text file that uses a comma to separate values. Each line of the file is a data record. Each record consists of one or more fields, separated by commas. A CSV file typically stores tabular data (numbers and text) in plain text, in which case each line will have the same number of fields. 
 Icon: https://ik.imagekit.io/developcafe/csv-svgrepo-com_AhJubWorw.svg
 category: spreadsheets

@@ -2,7 +2,7 @@ Title: dif
 Slug: samples/spreadsheets/dif-samples
 Date: 27 August 2020
 Modified: 27 August 2020
-Show_modified: Yes
+Show_modified: No
 Summary:  DIF (Data Interchange Format) is a text-based file format used for exporting and importing spreadsheets. 
 Icon: https://ik.imagekit.io/developcafe/excel-svgrepo-com_ZnvIbjj1a.svg
 category: spreadsheets
