@@ -34,7 +34,7 @@
 {% include 'component_burger_menu.html' %}
 
 {# Sidebar Menu #}
-<div class="columns">
+<div class="columns is-gapless">
     <div id="doc-menu" class="column is-2 menu is-mobile">
         {% include 'component_logo.html' %}
         {% include 'component_menu.html' %}
@@ -59,6 +59,7 @@
                         {% elif tag %}Tag: {{ tag }}
                         {% elif author %}By author: {{ author }}
                             {% elif period %}{{ period | reverse | join(' ') }} archives
+                        {% elif search %}Search
                         {% endif %}
                     </span>
                 </a>
@@ -84,6 +85,7 @@
     </div>
 </div>
 {# Custom Scripts #}
+<script src="{{ SITEURL }}/tipuesearch_content.js"></script>
 {% include 'component_custom_scripts.html' %}
 </body>
 </html>

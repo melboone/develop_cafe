@@ -56,6 +56,10 @@
     </div>
 {% endblock article_details %}
 {% block content %}
+
+    {# Article summary if specified #}
+    {{ article.summary }}
+
     {# Actual article content #}
     {{ article.content }}
 

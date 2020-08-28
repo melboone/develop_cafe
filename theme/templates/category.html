@@ -32,19 +32,28 @@
                         {# Check if the link is internal or not and if it is, link it to the internal article #}
                         <div class="media-left has-text-centered" style="width: 85px">
                             <figure>
-                                <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow noopener" target="_blank"{% endif %}>
+                                {% if not title.link %}
+                                    <a href="/{{ title.url }}" target="_self">
+                                {% else %}
+                                    {% if "/category/" in title.link %}
+                                        {# Check if the page is a category and make an internal link instead of external #}
+                                        <a href="{{ title.link }}" target="_self" rel="follow">
+                                    {% else %}
+                                        {# Check if the link is internal or not and if it is, link it to the internal article #}
+                                        <a href="{{ title.link }}" target="_blank" rel="nofollow noopener">
+                                    {% endif %}
+                                {% endif %}
 
-                                    {# Logic for displaying images #}
+                                {# Logic for displaying images #}
 
-                                    <img src=
-                                                 {# Nothing set? Display 'No Image Available' #}
-                                                 {% if not title.icon %}
-                                                     "https://ik.imagekit.io/developcafe/no-image_V16k9hKS8.png"
-                                                     {# Display image from imagekit (default for develop.cafe #}
-                                                 {% else %}
-                                                     "{{ title.icon }}?tr=r-max,h-85,bg-FFFFFF"
-                                                 {% endif %}
-                                                     title="{{ title.title }}" alt="{{ title.title }} Image">
+                                {# Nothing set? Display 'No Image Available' #}
+                                {% if not title.icon %}
+                                    <img src="https://ik.imagekit.io/developcafe/no-image_V16k9hKS8.png" title="{{ title.title }}" alt="{{ title.title }} Image">
+                                    {# Display image from imagekit (default for develop.cafe #}
+                                {% else %}
+                                    <img src="{{ title.icon }}?tr=r-max,h-85,bg-FFFFFF" title="{{ title.title }}" alt="{{ title.title }} Image">
+                                {% endif %}
+
                                 </a>
                             </figure>
                         </div>
@@ -59,23 +68,28 @@
                                 {# Github & externa Link #}
                                 <div style="float: right; opacity: .5">
                                     {% if title.github_edit_link %}
-                                        <a href="{{ title.github_edit_link }}" class="pr-3" style="vertical-align:middle;">
+                                        <a href="{{ title.github_edit_link }}" class="pr-3" target="_blank" rel="noopener noreferrer" style="vertical-align:middle;">
                                             <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/github.svg" alt="Edit on GitHub" width="14">
-                                        </a>
-                                    {% endif %}
-
-                                    {# Check if the link is internal or not and if it is, link it to the internal article #}
-                                    {% if title.link %}
-                                        <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow noopener" target="_blank"{% endif %}>
-                                            <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/external.png" width="14" alt="external link">
                                         </a>
                                     {% endif %}
                                 </div>
 
                                 <p class="title is-4">
                                     {# Box Title with Link to internal or external#}
-                                    <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow noopener" target="_blank"{% endif %}>
-                                        {{ title.title }}
+                                    {% if not title.link %}
+                                        <a href="/{{ title.url }}" target="_self">
+                                    {% else %}
+                                        {% if "/category/" in title.link %}
+                                            {# Check if the page is a category and make an internal link instead of external #}
+                                            <a href="{{ title.link }}" target="_self" rel="follow">
+                                        {% else %}
+                                            {# Check if the link is internal or not and if it is, link it to the internal article #}
+                                            <a href="{{ title.link }}" target="_blank" rel="nofollow noopener">
+                                            <img class="ml-2" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/external.png" width="14" alt="{{ title.title }} external link" style="opacity: .3; vertical-align: top;">
+                                        {% endif %}
+                                    {% endif %}
+                                    <span style="display:inline-block"></span>
+                                    <span style="float: left">{{ title.title }}</span>
                                     </a>
                                 </p>
 
@@ -91,13 +105,10 @@
                                 {# End Title and Author #}
 
                                 {# Begin content Summary. #}
-                                {# Check if the link is internal or not and create a link the summary #}
                                 <p>
-                                    <a {% if not title.link %}href="/{{ title.url }}" {% else %}href="{{ title.link }}" rel="nofollow noopener" target="_blank"{% endif %}>
-                                        {{ title.summary|truncate(120,true) }}
-                                    </a>
-                                    {# End content summary #}
+                                    {{ title.summary|truncate(120,true) }}
                                 </p>
+                                {# End content summary #}
                             </div>
 
                             {# Begin lower part of the box #}
@@ -125,19 +136,6 @@
                                         </div>
                                     </div>
                                 {% endif %}
-
-                                {# Check if there are tags. If so, display them - Disabled on 11 August 2020, replaced with Github Edit Page Link #}
-                                {#                                {% if title.tags %}#}
-                                {#                                    <div class="level-item">#}
-                                {#                                        <div class="tags has-addons">#}
-                                {#                                            <span class="tag is-light">Tags</span>#}
-                                {#                                            {% for tag in title.tags %}#}
-                                {#                                                <span class="tag is-info is-light"><a href="/{{ tag.url }}">{{ tag.name }}</a></span>#}
-                                {#                                            {% endfor %}#}
-                                {#                                        </div>#}
-                                {#                                    </div>#}
-                                {#                                {% endif %}#}
-
 
                                 {# Check if there last update is set to visible. If so, display it #}
                                 {% if not title.show_modified == 'No' %}
