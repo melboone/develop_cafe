@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
-{% block title %}Search{% endblock title %}
 {% block subtitle %}Search this website{% endblock subtitle %}
+{% block title %}Search{% endblock title %}
+{% block article_details %}
+    If the local search is not useful, try searching with
+    <a href="https://duckduckgo.com/?q=site%3Adevelop.cafe&t=h_" rel="nofollow noopener" target="_blank">DuckDuckGo</a>
+    or
+    <a href="https://www.google.com/search?q=site%3Adevelop.cafe&oq=site%3Adevelop.cafe" rel="nofollow noopener noreferrer" target="_blank">Google</a>.
+{% endblock article_details %}
 {% block content %}
     <div class="entry-content">
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js">

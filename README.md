@@ -35,4 +35,7 @@ Clone and run the project on your computer.
          `-.._____..-'
          
          
+## To do
+
+* Stylize the Search page and search results
 * Add comments? (don't really see the point)

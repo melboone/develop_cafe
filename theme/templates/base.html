@@ -56,10 +56,11 @@
                             {{ page.title|capitalize() }}
                             {% elif article %}{{ article.title|capitalize() }}
                             {% elif category %}{{ category|capitalize() }}
-                        {% elif tag %}Tag: {{ tag }}
-                        {% elif author %}By author: {{ author }}
+                            {% elif tag %}Tag: {{ tag }}
+                            {% elif author %}By author: {{ author }}
                             {% elif period %}{{ period | reverse | join(' ') }} archives
-                        {% elif search %}Search
+                            {# Search page #}
+                            {% elif '?q=' %} Search
                         {% endif %}
                     </span>
                 </a>
@@ -85,7 +86,6 @@
     </div>
 </div>
 {# Custom Scripts #}
-<script src="{{ SITEURL }}/tipuesearch_content.js"></script>
 {% include 'component_custom_scripts.html' %}
 </body>
 </html>
