@@ -10,4 +10,4 @@ Link: https://www.blobcity.com/
 Icon: https://ik.imagekit.io/developcafe/blobcity_ujxSIw-Iq.png
 Attribution: No
 Commercial: No
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/hosting/ai-cloud/blobcity.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/hosting/A.I.%20Cloud/blobcity.md

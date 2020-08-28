@@ -1,5 +1,5 @@
 Title: Favicon
-Slug: front-end/icons/
+Slug: front-end/icons/favicon
 Date: 12 August 2020
 Show_date: 15 August 2020
 Modified: 15 August 2020
@@ -10,14 +10,4 @@ Link: https://favicon.io/
 Icon: https://ik.imagekit.io/developcafe/favicon_WZM2udqe-.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/
-
-[//]: # (
-Remove the following if it's too much trouble. Included but optional,
-* Summary:
-* Link:
-* Icon:
-* Attribution: No
-* Commercial: Yes
-* Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/
-)
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/favicon.md
