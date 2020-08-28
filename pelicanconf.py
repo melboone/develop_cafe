@@ -10,8 +10,8 @@ from __future__ import unicode_literals
 
 # Website details
 SITENAME = "Develop Cafe"
-SITEURL = "https://develop.cafe"
-# SITEURL = "http://127.0.0.1:8000"
+# SITEURL = "https://develop.cafe"
+SITEURL = "http://127.0.0.1:8000"
 PATH = "content"
 TIMEZONE = "UTC"
 
@@ -39,8 +39,8 @@ MENUITEMS = [
             ("Animation", "/category/animation.html"),
             ("Colors", "/category/colors.html"),
             ("CSS", "/category/css.html"),
-            ("CSS Frameworks", "/category/css-frameworks.html"),
             ("Create Convert Design", "/category/create-convert-design.html"),
+            ("Frameworks", "/category/frameworks.html"),
             ("Icons", "/category/icons.html"),
             ("Illustrations", "/category/illustrations.html"),
             ("Images", "/category/images.html"),
@@ -60,8 +60,6 @@ MENUITEMS = [
     (
         "Sample Files",
         [
-            # ("Archives", "/category/archives.html"),
-            # ("Audio", "/category/audio.html"),
             ("Spreadsheets", "/category/spreadsheets.html"),
             ("Others", "/category/others.html"),
         ],
@@ -71,6 +69,12 @@ MENUITEMS = [
         [
             ("Development", "/category/development.html"),
             ("Design", "/category/design.html"),
+        ],
+    ),
+    (
+        "Students",
+        [
+            ("Github", "/students/github.html"),
         ],
     ),
 ]
@@ -142,7 +146,8 @@ DATE_FORMATS = {
 # Extra Plugins
 # PLUGINS = ["category_meta"]
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ['sitemap',]
+PLUGINS = ['sitemap','tipue_search']
+DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'search']
 SITEMAP = {
     'format': 'xml',
     'priorities': {
