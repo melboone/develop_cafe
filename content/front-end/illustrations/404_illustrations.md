@@ -4,7 +4,6 @@ Date: 9 August 2020
 Show_date: No
 Modified: 9 August 2020
 show_modified: No
-Tags: 404, not-found
 Category: Illustrations
 Summary:  Royalty free illustrations for 404 error pages. Make a unique journey through 404 error pages on your website Use these illustrations that describe better than words
 Link: https://error404.fun

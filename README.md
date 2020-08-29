@@ -39,3 +39,4 @@ Clone and run the project on your computer.
 
 * Stylize the Search page and search results
 * Add comments? (don't really see the point)
+* Clean and remove unused CSS

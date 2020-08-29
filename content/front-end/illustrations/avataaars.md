@@ -4,7 +4,6 @@ Date: 9 August 2020
 Show_date: No
 Modified: 14 August 2020
 Show_modified: No
-Tags: avatars, custom images, generate
 Category: Illustrations
 Commercial: Yes
 Attribution: No

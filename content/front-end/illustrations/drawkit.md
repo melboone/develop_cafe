@@ -4,7 +4,6 @@ Date: 10 August 2020
 Show_date: No
 Modified: 10 August 2020
 Show_modified: No
-Tags: image, 
 Category: illustrations
 Summary: Hand-drawn vector illustration and icon resources, perfect for your next project.
 Link: https://www.drawkit.io/free

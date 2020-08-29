@@ -4,7 +4,6 @@ Date: 10 August 2020
 Show_date: No
 Modified: 10 August 2020
 Show_modified: No
-Tags: 404, error, website
 Category: illustrations
 Summary: Poke is a hand-crafted set of empty, error & success illustrations for your web, app & any print projects. It comes with 10x2 main illustrations in both dark and light mode. It also includes PSD files with editable layers.
 Link: https://www.karthiksrinivas.in/poke

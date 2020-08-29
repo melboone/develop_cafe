@@ -4,7 +4,6 @@ Date: 10 August 2020
 Show_date: No
 Modified: 10 August 2020
 Show_modified: No
-Tags:
 Category: illustrations
 Summary: The Ghost Illustration pack looks mainly plain without the huge pop of color, but they are elemental in making your design project stand out. They are uncomplicated and smooth.
 Link: https://getillustrations.com/illustration-pack/ghost-illustrations-builder

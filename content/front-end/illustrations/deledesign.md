@@ -4,7 +4,6 @@ Date: 10 August 2020
 Show_date: No
 Modified: 10 August 2020
 Show_modified: No
-Tags: web app, illustrations, image
 Category: illustrations
 Summary: royalty-free custom landing page designs and email templates (HTML and CSS included), illustrations, graphic design, social media designs.
 Link: https://www.delesign.com/free-designs/graphics
