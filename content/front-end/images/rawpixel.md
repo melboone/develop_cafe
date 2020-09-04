@@ -10,4 +10,4 @@ Link: https://www.rawpixel.com/free-images?sort=shuffle&premium=free&page=1
 Icon: https://ik.imagekit.io/developcafe/rawpixel_xrs4W5sQu.png
 Attribution: Unclear
 Commercial: Unclear
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/images/rawpixe.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/images/rawpixel.md
