@@ -12,7 +12,8 @@ Attribution: No
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/collaboration/sharing/
 
-[//] # (This page is formatted in HTML because it would be a pain in the ... if one would add each row number manually and then rearrange if one is removed)
+
+[//]: # (This page is formatted in HTML because it would be a pain in the ... if one would add each row number manually and then rearrange if one is removed)
 
 * This data comes from the [O*NET](https://www.onetonline.org/) web site which is sponsored by the U.S. Department of Labor.
 * Initially pulled from [unawaz Github](https://unawaz.github.io/stochastic-hill-climbing/tasks/)
