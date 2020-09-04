@@ -8,6 +8,6 @@ Category: illustrations
 Summary: Download 1,150+ Royalty Free Illustrations available for personal and commercial use. 
 Link: https://iconscout.com/free-illustrations?referral_code=G4O4IYVWJ1E
 Icon: https://ik.imagekit.io/developcafe/iconscout_t0sM6RYPB.png
-Attribution: No
+Attribution: Yes
 Commercial: Yes
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/illustrations/iconscout.md
