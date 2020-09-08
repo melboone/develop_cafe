@@ -7,10 +7,10 @@ Show_modified: No
 Category: idea
 Summary: A kind of map of the current economically important human activities. 
 Link:
-Icon:
+Icon: https://ik.imagekit.io/developcafe/android-chrome-512x512_oLe0k6oZL.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/collaboration/sharing/
+Github_edit_link: https://raw.githubusercontent.com/melboone/develop_cafe/master/content/20k-startup/20k-ideas.md
 
 
 [//]: # (This page is formatted in HTML because it would be a pain in the ... if one would add each row number manually and then rearrange if one is removed)
