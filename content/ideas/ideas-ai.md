@@ -10,4 +10,4 @@ Link: https://ideasai.net/
 Icon: https://ik.imagekit.io/developcafe/ai-ideas__t3BJeA-o.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: 
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/ideas/ideas-ai.md
