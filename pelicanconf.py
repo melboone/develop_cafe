@@ -79,7 +79,6 @@ MENUITEMS = [
         ],
     ),
     (
-      # "20.000 startup ideas", "category/20k-startup/20k-startup-ideas.html"
       "Ideas",
       [
           ("Startup Ideas", "/category/idea.html"),
