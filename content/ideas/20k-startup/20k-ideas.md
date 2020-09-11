@@ -5,7 +5,7 @@ Show_date: No
 Modified: 2 September 2020
 Show_modified: No
 Category: idea
-Summary: A kind of map of the current economically important human activities. 
+Summary: A kind of map of the current economically important human activities. This data comes from the O*NET website.
 Link:
 Icon: https://ik.imagekit.io/developcafe/android-chrome-512x512_oLe0k6oZL.png
 Attribution: No
