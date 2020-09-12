@@ -1,5 +1,5 @@
 Title: Textures.js
-Slug: front-end/textures/textures
+Slug: front-end/textures/textures-js
 Date: 15 August 2020
 Show_date: No
 Modified: 12 September 2020
@@ -10,4 +10,4 @@ Link: https://riccardoscalco.it/textures/
 Icon: https://riccardoscalco.it/textures/imgs/map.pic.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/textures/textures
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/textures/textures-js.md
