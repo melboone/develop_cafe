@@ -4,7 +4,7 @@ Date: 15 August 2020
 Show_date: No
 Modified: 12 September 2020
 Show_modified: Yes
-Category: JS
+Category: textures
 Summary: SVG patterns for Data Visualization
 Link: https://riccardoscalco.it/textures/
 Icon: https://riccardoscalco.it/textures/imgs/map.pic.png
