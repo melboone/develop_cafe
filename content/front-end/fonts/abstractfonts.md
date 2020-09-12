@@ -1,5 +1,5 @@
 Title: Abstract Fonts
-Slug: front-end/fonts/
+Slug: front-end/fonts/abstract
 Date: 12 September 2020
 Show_date: No
 Modified: 12 September 2020
@@ -10,4 +10,4 @@ Link: http://www.abstractfonts.com/
 Icon: https://ik.imagekit.io/developcafe/abstractfonts_Hqwm3OX4t.gif
 Attribution: No
 Commercial: Unclear
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/fonts/
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/fonts/abstract.md

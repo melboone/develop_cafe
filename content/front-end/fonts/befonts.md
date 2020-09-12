@@ -1,5 +1,5 @@
 Title: Befonts
-Slug: front-end/fonts/
+Slug: front-end/fonts/befonts
 Date: 12 September 2020
 Show_date: No
 Modified: 12 September
@@ -10,4 +10,4 @@ Link: https://befonts.com/
 Icon: https://ik.imagekit.io/developcafe/befonts2020_Fwki0TxcU.png
 Attribution: No
 Commercial: Unclear
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/fonts/
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/fonts/befonts.md
