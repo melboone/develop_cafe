@@ -40,6 +40,7 @@ MENUITEMS = [
             ("Colors", "/category/colors.html"),
             ("CSS", "/category/css.html"),
             ("Create Convert Design", "/category/create-convert-design.html"),
+            ("Fonts", "/category/fonts.html"),
             ("Frameworks", "/category/frameworks.html"),
             ("Icons", "/category/icons.html"),
             ("Illustrations", "/category/illustrations.html"),
