@@ -1,4 +1,4 @@
-Title: Pixelsurplus
+Title: Pixel Surplus
 Slug: front-end/mockups/pixelsurplus
 Date: 12 August 2020
 Show_date: No
