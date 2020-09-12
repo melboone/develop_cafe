@@ -9,5 +9,5 @@ Summary: Bring your projects to life with the best digital design tools - at a f
 Link: https://www.pixelsurplus.com/mockups
 Icon: https://ik.imagekit.io/developcafe/pixelsurplus_gII9Wp9cP.png
 Attribution: No
-Commercial: Yes
+Commercial: Unclear
 Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/mockups/pixelsurplus.md
