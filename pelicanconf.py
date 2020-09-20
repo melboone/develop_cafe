@@ -54,6 +54,12 @@ MENUITEMS = [
         ],
     ),
     (
+        "Games",
+        [
+            ("Game Assets", "/category/game-assets.html"),
+        ]
+    ),
+    (
         "Hosting",
         [
             ("AI Cloud", "/category/ai-cloud.html"),
@@ -81,9 +87,9 @@ MENUITEMS = [
         ],
     ),
     (
-      "Ideas",
-      [
-          ("Startup Ideas", "/category/idea.html"),
+        "Ideas",
+        [
+            ("Startup Ideas", "/category/idea.html"),
         ],
     ),
 ]
@@ -155,7 +161,7 @@ DATE_FORMATS = {
 # Extra Plugins
 # PLUGINS = ["category_meta"]
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ['sitemap','tipue_search']
+PLUGINS = ['sitemap', 'tipue_search']
 DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'search']
 SITEMAP = {
     'format': 'xml',
