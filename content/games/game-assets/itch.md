@@ -10,4 +10,4 @@ Link: https://itch.io/game-assets/assets-cc0
 Icon: https://ik.imagekit.io/developcafe/itch_FOW2WPao1.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/game/game-assets/itch.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/games/game-assets/itch.md
