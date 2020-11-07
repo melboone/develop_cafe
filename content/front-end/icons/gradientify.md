@@ -10,4 +10,4 @@ Link: https://www.iconshock.com/svg-icons/
 Icon: https://ik.imagekit.io/developcafe/GRADIENTIFY_YiNq794DF.png
 Attribution: Yes
 Commercial: No
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/gradientify.md
