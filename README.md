@@ -2,7 +2,7 @@
 
 Develop.cafe is a collection of tools and resources for developers and designers.
 
-Project is built in Python using [Pelican](https://getpelican.com) and uses [Markdown](https://daringfireball.net/projects/markdown/basics) as the editor of choice. Uses [Jinja](https://palletsprojects.com/p/jinja/) as the template package and [Bulma](https://bulma.io/documentation/) as the CSS framework.
+Project is built in Python using [Pelican](https://getpelican.com) and uses [Markdown](https://daringfireball.net/projects/markdown/basics) as the editor of choice. The template is built using [Jinja](https://palletsprojects.com/p/jinja/) and [Bulma](https://bulma.io/documentation/) as the CSS framework.
 
 Feel free to clone or make pull requests.
 
