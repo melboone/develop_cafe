@@ -47,6 +47,7 @@ MENUITEMS = [
             ("Images", "/category/images.html"),
             ("Logos", "/category/logos.html"),
             ("Mockups", "/category/mockups.html"),
+            ("Static Site Generators", "/category/static-site-generators.html"),
             ("Textures", "/category/textures.html"),
             ("Typography", "/category/typography.html"),
             ("Useful", "/category/useful.html"),
