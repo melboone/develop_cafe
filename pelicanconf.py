@@ -21,7 +21,7 @@ ARTICLE_TRANSLATION_ID = "slug"
 
 # Menu sorting and listing. Categories are hidden by default so we can add them properly below
 DISPLAY_CATEGORIES_ON_MENU = False
-# Due to the static nature of this job, unfortunately this is a manual job
+# Due to the static nature of this website, this is a manual job
 # Every link needs to the entry added below. Format: Black
 
 MENUITEMS = [
@@ -47,11 +47,11 @@ MENUITEMS = [
             ("Images", "/category/images.html"),
             ("Logos", "/category/logos.html"),
             ("Mockups", "/category/mockups.html"),
-            ("Static Site Generators", "/category/static-site-generators.html"),
             ("Textures", "/category/textures.html"),
             ("Typography", "/category/typography.html"),
             ("Useful", "/category/useful.html"),
             ("Video", "/category/video.html"),
+            ("Website Generators", "/category/website-generators.html"),
         ],
     ),
     (
