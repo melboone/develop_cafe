@@ -1,5 +1,5 @@
 Title: 2 Colors Combinations
-Slug: front-end/colors/two-colors-combinations
+Slug: front-end/colors/two-colors
 Date: 9 July 2021
 Show_date: No
 Modified: 9 July 2021
@@ -10,4 +10,4 @@ Link: https://2colors.colorion.co/
 Icon: https://ik.imagekit.io/developcafe/2-colors_jwDMmNpBa.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/colors/two-colors-combinations.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/colors/two-colors.md
