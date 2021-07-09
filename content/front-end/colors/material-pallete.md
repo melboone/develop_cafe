@@ -10,4 +10,4 @@ Link: https://www.materialpalette.com/
 Icon: https://ik.imagekit.io/developcafe/material-pallete_mneN8swiM.png
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/colors/material-palette
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/colors/material-palette.md
