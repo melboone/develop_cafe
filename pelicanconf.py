@@ -19,7 +19,8 @@ TIMEZONE = "UTC"
 DEFAULT_LANG = "en"
 ARTICLE_TRANSLATION_ID = "slug"
 
-# Menu sorting and listing. Categories are hidden by default so we can add them properly below
+# Menu sorting and listing.
+# Categories are hidden by default so we can add them properly below
 DISPLAY_CATEGORIES_ON_MENU = False
 # Due to the static nature of this website, this is a manual job
 # Every link needs to the entry added below. Format: Black
