@@ -10,4 +10,4 @@ Link: https://iconoir.com/
 Icon: https://ik.imagekit.io/developcafe/iconoir_VbFOkwdiY2vf.png?updatedAt=1642030279188
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/iconoir
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/front-end/icons/iconoir.md

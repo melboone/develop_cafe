@@ -41,5 +41,5 @@ Clone and run the project on your computer.
 * Clean and remove unused CSS
 
 ## Other considerations
-
+v
 * Add comments
