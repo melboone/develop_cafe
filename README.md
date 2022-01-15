@@ -37,9 +37,5 @@ Clone and run the project on your computer.
          
 ## To do
 
-* Stylize the Search page and search results
-* Clean and remove unused CSS
-
-## Other considerations
-v
-* Add comments
+* Make Search Work
+* Clean CSS
