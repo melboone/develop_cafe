@@ -1,4 +1,4 @@
-Title: 
+Title: randoma11y
 Slug: front-end/colors/randoma11y
 Date: 15 August 2020
 Show_date: No

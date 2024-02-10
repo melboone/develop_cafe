@@ -1,4 +1,4 @@
-Title:
+Title: gradihunt
 Slug: front-end/colors/
 Date: 9 September 2020
 Show_date: No
