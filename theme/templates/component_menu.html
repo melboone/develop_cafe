@@ -1,14 +1,14 @@
 <ul class="menu-list">
-    <form action="{{ SITEURL }}/search.html" onsubmit="return validateForm(this.elements['q'].value);">
-        <div class="field has-addons px-4">
-            <div class="control">
-                <input class="input" type="text" placeholder="Search" name="q" id="tipue_search_input">
-            </div>
-            <div class="control">
-                <input class="button is-info" type="submit" value="Go!">
-            </div>
-        </div>
-    </form>
+{#    <form action="{{ SITEURL }}/search.html" onsubmit="return validateForm(this.elements['q'].value);">#}
+{#        <div class="field has-addons px-4">#}
+{#            <div class="control">#}
+{#                <input class="input" type="text" placeholder="Search" name="q" id="tipue_search_input">#}
+{#            </div>#}
+{#            <div class="control">#}
+{#                <input class="button is-info" type="submit" value="Go!">#}
+{#            </div>#}
+{#        </div>#}
+{#    </form>#}
     {% for title,url in MENUITEMS %}
         {% if url is string %}
             {% if title != 'Search' %}
