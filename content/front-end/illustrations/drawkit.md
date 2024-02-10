@@ -6,7 +6,7 @@ Modified: 10 August 2020
 Show_modified: No
 Category: illustrations
 Summary: Hand-drawn vector illustration and icon resources, perfect for your next project.
-Link: https://www.drawkit.io/free
+Link: https://www.drawkit.com/#illustrations
 Icon: https://ik.imagekit.io/developcafe/drawkit_c5PB8HaFE.svg
 Attribution: No
 Commercial: Yes
