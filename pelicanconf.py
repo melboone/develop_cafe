@@ -94,6 +94,13 @@ MENUITEMS = [
             ("Startup Ideas", "/category/idea.html"),
         ],
     ),
+    (
+        "Artificial  Intelligence (AI)",
+        [
+            ("AI Text", "/category/ai-text.html"),
+            ("AI Images", "/category/ai-images.html"),
+        ],
+    ),
 ]
 # Feed generation is usually not desired when developingz
 #  Feeds
