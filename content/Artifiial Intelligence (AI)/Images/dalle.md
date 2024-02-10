@@ -10,4 +10,4 @@ Link: https://openai.com/dall-e-3
 Icon: https://girlgeek.io/wp-content/uploads/2019/08/openai-logo-vertical-dimensional-white.jpg
 Attribution: No
 Commercial: Yes
-Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/.md
+Github_edit_link: https://github.com/melboone/develop_cafe/edit/master/content/Artifiial%20Intelligence%20(AI)/Images/dalle.md
